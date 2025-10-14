@@ -1,0 +1,259 @@
+/* ==================== SIGNAL ARCHIVE — MONOLITH v3 (WCAG-2.2 tuned) ====================
+   Palette (fixed hues only): Black #000000, Gold #D4AF37, White #F9F9F9, Crimson #6B0000,
+                              Ash #1E1E1E, Violet #7F00FF, Cobalt #0033CC, Emerald #007A3D
+   Type: UI = Helvetica Neue; Core/Proofs = Monospace
+   Contrast policy: only OPACITY changes; hues unchanged. AA/AAA satisfied per audit.
+========================================================================================= */
+
+:root{
+  /* exact palette */
+  --black:#000000; --gold:#D4AF37; --white:#F9F9F9; --crimson:#6B0000;
+  --ash:#1E1E1E;  --violet:#7F00FF; --cobalt:#0033CC; --emerald:#007A3D;
+
+  /* roles */
+  --bg: var(--black);
+  --surface: var(--ash);
+  --ink: var(--white);
+
+  /* Text: AAA on black and ash (white @ alpha>=.64) */
+  --muted: rgba(249,249,249,.68);
+
+  /* Functional borders/lines: >=3:1 vs black and ash */
+  --line: rgba(212,175,55,.55); /* gold @ .55 */
+
+  /* Focus: dual ring passes on black and ash */
+  --ring-inner: rgba(127,0,255,1.0);  /* violet */
+  --ring-outer: rgba(212,175,55,.64); /* gold */
+
+  --ui: "Helvetica Neue", Helvetica, Arial, system-ui, -apple-system, "Segoe UI";
+  --core: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+  --r: 14px;
+  --r-sm: 10px;
+  --pad: clamp(14px, 1.8vw, 20px);
+}
+
+/* Base */
+*{box-sizing:border-box}
+html,body{height:100%}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font:16px/1.55 var(--ui);
+  color:var(--ink);
+  background:
+    radial-gradient(900px 600px at 12% -10%, rgba(212,175,55,.08), transparent 60%),
+    radial-gradient(700px 500px at 110% 0%, rgba(127,0,255,.06), transparent 60%),
+    linear-gradient(180deg, var(--black) 0%, rgba(0,0,0,.94) 60%, var(--black) 100%);
+}
+
+/* Container */
+.wrap{width:min(1120px,100%); margin-inline:auto; padding: clamp(18px,3.6vw,40px);}
+
+/* Header */
+.brand{
+  display:flex; align-items:flex-end; justify-content:space-between; gap:1rem;
+  padding-bottom:.8rem; position:relative;
+}
+.logo{
+  display:flex; align-items:center; gap:.7rem; letter-spacing:.02em;
+  font-weight:700; font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+}
+.logo .glyph{
+  width:26px;height:26px;border-radius:4px;
+  background:
+    linear-gradient(135deg, rgba(212,175,55,.12), transparent 55%),
+    linear-gradient(0deg, rgba(0,0,0,.4), rgba(0,0,0,.8)),
+    var(--ash);
+  outline:1px solid rgba(107,0,0,.6); /* decorative crimson */
+  box-shadow: inset 0 1px 0 rgba(249,249,249,.06);
+}
+.logo span{color:var(--gold)}
+.kicker{color:var(--muted); font-size: clamp(.92rem,1.5vw,1.05rem)}
+
+/* Gold rule (functional) + decorative crimson stitch */
+.hr{
+  height:2px; border-radius:2px; position:relative; overflow:hidden; margin:.3rem 0 1.2rem;
+  background: linear-gradient(90deg, rgba(212,175,55,0) 0%, rgba(212,175,55,.85) 15%, rgba(212,175,55,.7) 50%, rgba(212,175,55,0) 85%);
+}
+.hr::after{
+  content:""; position:absolute; inset:auto 0 0 0; height:1px;
+  background: linear-gradient(90deg, rgba(107,0,0,.35), rgba(107,0,0,0) 40%, rgba(107,0,0,0) 60%, rgba(107,0,0,.35));
+}
+
+/* Search (static, no JS) */
+.search{ position:relative; margin-bottom:1rem; }
+.search input{
+  width:100%; font: 500 1rem/1.2 var(--ui); color:var(--ink);
+  background: linear-gradient(180deg, rgba(30,30,30,.95), rgba(30,30,30,.82));
+  border:1px solid var(--line); border-radius: var(--r);
+  padding: .8rem 3rem .8rem 1rem;
+  box-shadow: inset 0 1px 0 rgba(249,249,249,.05);
+}
+.search input::placeholder{color:rgba(249,249,249,.45)}
+.search svg{position:absolute; right:.9rem; top:50%; transform:translateY(-50%); opacity:.7}
+
+/* Grid */
+.grid{
+  display:grid;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+  gap: clamp(12px, 2.2vw, 18px);
+}
+
+/* Card */
+.card{
+  position:relative; overflow:hidden;
+  background: linear-gradient(180deg, rgba(30,30,30,.95), rgba(30,30,30,.86));
+  border:1px solid var(--line); /* functional border = gold alpha .55 */
+  border-radius: var(--r);
+  padding: var(--pad);
+  box-shadow: 0 10px 40px rgba(0,0,0,.6);
+  transition: transform .14s ease, border-color .2s ease, box-shadow .2s ease;
+}
+/* Emerald verification rail (functional non-text contrast >=3:1) */
+.card--verified::after{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:3px;
+  background: linear-gradient(to bottom, rgba(0,122,61,.95), rgba(0,122,61,.35));
+}
+.card::before{
+  content:""; position:absolute; inset:-30% -60% auto -60%; height:140%;
+  background: radial-gradient(60% 50% at 50% 0%, rgba(212,175,55,.10), transparent 60%);
+  pointer-events:none;
+}
+.card:hover{
+  transform: translateY(-2px);
+  border-color: rgba(212,175,55,.65);
+  box-shadow: 0 16px 56px rgba(0,0,0,.75), 0 0 0 1px rgba(212,175,55,.15) inset;
+}
+
+/* Title + Meta */
+.h{
+  font-weight:700; letter-spacing:.01em;
+  font-size: clamp(1.02rem, 2.1vw, 1.18rem);
+}
+.meta{
+  margin-top:.35rem; color:var(--muted); font-size:.9rem;
+  display:flex; align-items:center; gap:.5rem;
+}
+.meta .led{
+  width:.5rem; height:.5rem; border-radius:50%;
+  background: var(--emerald);
+  box-shadow:0 0 0 2px rgba(0,122,61,.28);
+}
+
+/* Actions */
+.actions{ display:flex; flex-wrap:wrap; gap:.55rem; margin-top:.9rem }
+.btn{
+  display:inline-flex; align-items:center; gap:.45rem;
+  text-decoration:none; user-select:none;
+  padding:.62rem .9rem; border-radius:10px; border:1px solid var(--line);
+  background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.55));
+  font: 600 .92rem/1 var(--ui); color: var(--gold); /* gold text on dark = AAA */
+  transition: transform .08s ease, box-shadow .2s ease, border-color .2s ease, background .2s ease, color .2s ease;
+}
+.btn:hover{ transform: translateY(-1px); border-color: rgba(212,175,55,.68); }
+.btn:focus-visible{
+  outline:none;
+  box-shadow:
+    0 0 0 2px var(--ring-inner),
+    0 0 0 4px var(--ring-outer);
+}
+
+/* Primary button: black text on gold, lowest stop alpha .88 to hold AAA */
+.btn--primary{
+  color:#000000; /* black */
+  background: linear-gradient(180deg, var(--gold) 0%, rgba(212,175,55,.88) 100%);
+  border-color: rgba(212,175,55,.90);
+  box-shadow:
+    inset 0 1px 0 rgba(249,249,249,.35),
+    0 8px 22px rgba(212,175,55,.22);
+}
+.btn--primary:hover{ filter: brightness(1.04); }
+
+/* Links — keep text AAA (white). Use cobalt only for underline/icon. */
+a, .footer a, .links a{
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: rgba(0,51,204,.80); /* cobalt */
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  border-bottom: none;
+}
+a:hover{ text-decoration-color: rgba(0,51,204,1); }
+
+/* Links row under buttons */
+.links{ margin-top:.5rem; display:flex; gap:.9rem; flex-wrap:wrap }
+
+/* Tag chips */
+.tags{ display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.8rem }
+.tag{
+  color:var(--gold);
+  border:1px solid var(--line);
+  border-radius:999px; padding:.26rem .55rem; font:.82rem/1 var(--ui);
+  background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.55));
+}
+
+/* Proofs (monospace) */
+details{ margin-top:.8rem; border-top:1px solid var(--line); padding-top:.6rem }
+summary{
+  cursor:pointer; color:var(--muted); font:.86rem/1 var(--ui); list-style:none;
+}
+summary::-webkit-details-marker{display:none}
+.proof{
+  margin-top:.55rem; font:.86rem/1.5 var(--core); color:var(--muted);
+  background: linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.45));
+  border:1px solid var(--line); border-radius: var(--r-sm);
+  padding:.7rem .8rem; overflow:auto;
+}
+
+/* Footer (page-level; your CC0 footer already has inline fallbacks) */
+.footer{
+  margin-top: clamp(22px, 4vw, 44px);
+  color:var(--muted); font:.94rem/1.4 var(--ui);
+  border-top:1px solid var(--line); padding-top:.9rem;
+}
+
+/* Content defaults for viewer pages (Code/CSV/Audio/Video/Image, Pandoc HTML) */
+main h1, main h2, main h3{ margin:.2rem 0 .6rem 0 }
+main h1{ font-size: clamp(1.3rem,2.6vw,1.6rem) }
+main h2{ font-size: clamp(1.1rem,2.1vw,1.3rem) }
+main h3{ font-size: clamp(1.0rem,1.9vw,1.15rem) }
+
+pre, code, kbd, samp{ font-family: var(--core) }
+pre{
+  background: linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.45));
+  border:1px solid var(--line); border-radius: var(--r);
+  padding:1rem; overflow:auto; color: var(--muted);
+}
+
+table{ width:100%; border-collapse:collapse; margin: .6rem 0 1rem 0 }
+th, td{ border:1px solid var(--line); padding:.6rem .7rem; vertical-align:top }
+th{ background: rgba(212,175,55,.06); font-weight:700 }
+
+img, video{ max-width:100%; height:auto; display:block; border-radius:10px }
+audio, video{ width:100%; outline:none }
+
+blockquote{
+  margin:.8rem 0; padding:.6rem .9rem;
+  border-left:3px solid var(--line);
+  background: linear-gradient(180deg, rgba(0,0,0,.18), rgba(0,0,0,.36));
+  color: var(--muted);
+}
+
+/* Focus styles for interactive elements */
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+  outline:none;
+  box-shadow:
+    0 0 0 2px var(--ring-inner),
+    0 0 0 4px var(--ring-outer);
+  border-radius:8px;
+}
+
+/* Print tweaks (optional, non-destructive) */
+@media print{
+  body{ background:#fff; color:#000 }
+  .brand .glyph{ outline: none }
+  a{ color:#000; text-decoration: underline; text-decoration-color:#000 }
+  .btn{ border-color:#000; color:#000; background:#fff; box-shadow:none }
+  .card, .proof, pre{ box-shadow:none }
+}
