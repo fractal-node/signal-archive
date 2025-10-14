@@ -1,0 +1,63 @@
+IN: C:\SignalArchiveWork\DROP_INBOX
+PlanCount: 3
+Resolved items (first 10):
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\origin.gen.txt",
+    "srcExt":  ".txt",
+    "title":  "PROOF-OF-SIGNAL",
+    "tags":  "signal",
+    "H":  "Y",
+    "E":  "N",
+    "P":  "Y",
+    "slug":  "proof-of-signal-b82913",
+    "relDir":  "",
+    "artifactRelBase":  "proof-of-signal-b82913",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\proof-of-signal-b82913",
+    "visibility":  "signal"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\BEST ICE CREAM.txt",
+    "srcExt":  ".txt",
+    "title":  "HOMEMADE ICE CREAM",
+    "tags":  [
+                 "keto",
+                 "dessert",
+                 "food",
+                 "ice cream"
+             ],
+    "H":  "Y",
+    "E":  "N",
+    "P":  "Y",
+    "slug":  "homemade-ice-cream-c13350",
+    "relDir":  "",
+    "artifactRelBase":  "homemade-ice-cream-c13350",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\homemade-ice-cream-c13350",
+    "visibility":  "signal"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\SovereigntyAndItsDiscontents.docx",
+    "srcExt":  ".docx",
+    "title":  "Sovereignty and Its Discontents",
+    "tags":  [
+                 "civilization",
+                 "freud",
+                 "stack",
+                 "psychology",
+                 "philosophy",
+                 "sovereignty",
+                 "collapse",
+                 "myth",
+                 "law"
+             ],
+    "H":  "Y",
+    "E":  "Y",
+    "P":  "Y",
+    "slug":  "sovereignty-and-its-discontents-1002e6",
+    "relDir":  "",
+    "artifactRelBase":  "sovereignty-and-its-discontents-1002e6",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\sovereignty-and-its-discontents-1002e6",
+    "visibility":  "public"
+}

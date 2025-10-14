@@ -5,9 +5,15 @@
     <link>https://fractalnode.org/</link>
     <description>New and updated items from the Signal Archive</description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Oct 2025 14:15:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 14:22:08 GMT</lastBuildDate>
     <ttl>60</ttl>
     <item>
+      <title>Sovereignty and its discontents</title>
+      <link>https://fractalnode.org/sovereignty-and-its-discontents-1002e6/index.html</link>
+      <guid isPermaLink='false'>sha256:8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5</guid>
+      <pubDate>Tue, 14 Oct 2025 14:22:06 GMT</pubDate>
+      <description>sha256: 8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5 | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/index.html</description>
+    </item>    <item>
       <title>Proof of signal</title>
       <link>https://fractalnode.org/proof-of-signal-b82913/index.html</link>
       <guid isPermaLink='false'>sha256:e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607</guid>

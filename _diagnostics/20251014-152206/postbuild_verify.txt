@@ -1,0 +1,3 @@
+[VERIFY] proof-of-signal-b82913 -> html=True pdf=True epub=False
+[VERIFY] homemade-ice-cream-c13350 -> html=True pdf=True epub=False
+[VERIFY] sovereignty-and-its-discontents-1002e6 -> html=True pdf=True epub=True

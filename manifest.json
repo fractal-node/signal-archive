@@ -1,11 +1,41 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-14T14:15:48Z",
+    "generated_at":  "2025-10-14T14:22:08Z",
     "site_http":  "https://fractalnode.org",
     "site_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion",
     "license":  "CC0-1.0",
     "license_url":  "https://creativecommons.org/publicdomain/zero/1.0/",
     "artifacts":  [
+                      {
+                          "name":  "sovereignty-and-its-discontents-1002e6/index.html",
+                          "size":  50808,
+                          "sha256":  "8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5",
+                          "title":  "Sovereignty and its discontents",
+                          "slug":  "sovereignty-and-its-discontents-1002e6",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/sovereignty-and-its-discontents-1002e6/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/index.html"
+                      },
+                      {
+                          "name":  "sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.pdf",
+                          "size":  125248,
+                          "sha256":  "f08a45b2ebb95fca5c68b682f1759f52223154e57c11f12817d8f8cc759dfb5f",
+                          "title":  "Sovereignty and its discontents",
+                          "slug":  "sovereignty-and-its-discontents-1002e6",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.pdf"
+                      },
+                      {
+                          "name":  "sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.epub",
+                          "size":  29498,
+                          "sha256":  "67e5f28b44fe8147567abe64e6a706b60be76dccada2af1d3510431af7a56642",
+                          "title":  "Sovereignty and its discontents",
+                          "slug":  "sovereignty-and-its-discontents-1002e6",
+                          "ext":  "epub",
+                          "url_http":  "https://fractalnode.org/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.epub",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.epub"
+                      },
                       {
                           "name":  "proof-of-signal-b82913/index.html",
                           "size":  1222,
