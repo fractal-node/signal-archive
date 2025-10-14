@@ -1,13 +1,7 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-14T13:38:20Z",
+    "generated_at":  "2025-10-14T13:50:00Z",
     "files":  [
-                  {
-                      "name":  "signal-archive/index.html",
-                      "sha256":  "44923f2290e8629d03649a9c8021f845b6e33b5e5bec752a244d2f39b73767b0",
-                      "http":  "https://fractalnode.org/signal-archive/index.html",
-                      "onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/signal-archive/index.html"
-                  },
                   {
                       "name":  "proof-of-signal-b82913/index.html",
                       "sha256":  "e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607",
@@ -33,5 +27,5 @@
                       "onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/homemade-ice-cream-c13350/homemade-ice-cream-c13350.pdf"
                   }
               ],
-    "dir_cid":  "bafybeiegedafn6hmio75er7js74xjnvdie3cg74trs73d5gdlenoia3cv4"
+    "dir_cid":  "bafybeich7py3uibxlk7uwtuzvfhhfpak5tglbs75z2wihdahkbd4rlbdeq"
 }

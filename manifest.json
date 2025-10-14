@@ -1,21 +1,11 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-14T13:38:20Z",
+    "generated_at":  "2025-10-14T13:50:00Z",
     "site_http":  "https://fractalnode.org",
     "site_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion",
     "license":  "CC0-1.0",
     "license_url":  "https://creativecommons.org/publicdomain/zero/1.0/",
     "artifacts":  [
-                      {
-                          "name":  "signal-archive/index.html",
-                          "size":  1075,
-                          "sha256":  "44923f2290e8629d03649a9c8021f845b6e33b5e5bec752a244d2f39b73767b0",
-                          "title":  "Signal archive",
-                          "slug":  "signal-archive",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/signal-archive/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/signal-archive/index.html"
-                      },
                       {
                           "name":  "proof-of-signal-b82913/index.html",
                           "size":  1222,
