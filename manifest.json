@@ -1,11 +1,60 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-14T12:38:48Z",
+    "generated_at":  "2025-10-14T13:38:20Z",
     "site_http":  "https://fractalnode.org",
     "site_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion",
     "license":  "CC0-1.0",
     "license_url":  "https://creativecommons.org/publicdomain/zero/1.0/",
     "artifacts":  [
-
+                      {
+                          "name":  "signal-archive/index.html",
+                          "size":  1075,
+                          "sha256":  "44923f2290e8629d03649a9c8021f845b6e33b5e5bec752a244d2f39b73767b0",
+                          "title":  "Signal archive",
+                          "slug":  "signal-archive",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/signal-archive/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/signal-archive/index.html"
+                      },
+                      {
+                          "name":  "proof-of-signal-b82913/index.html",
+                          "size":  1222,
+                          "sha256":  "e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607",
+                          "title":  "Proof of signal",
+                          "slug":  "proof-of-signal-b82913",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/proof-of-signal-b82913/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/index.html"
+                      },
+                      {
+                          "name":  "proof-of-signal-b82913/proof-of-signal-b82913.pdf",
+                          "size":  29600,
+                          "sha256":  "395e9bb3ce2392f3445d17f52070f6a017ae9a213ebdac73a0f5dd18be8ba898",
+                          "title":  "Proof of signal",
+                          "slug":  "proof-of-signal-b82913",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/proof-of-signal-b82913/proof-of-signal-b82913.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/proof-of-signal-b82913.pdf"
+                      },
+                      {
+                          "name":  "homemade-ice-cream-c13350/index.html",
+                          "size":  4894,
+                          "sha256":  "7db6a1de05bc04d7902e88019bfbf872b99078a468ad67905ffac4d8340b650a",
+                          "title":  "Homemade ice cream",
+                          "slug":  "homemade-ice-cream-c13350",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/homemade-ice-cream-c13350/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/homemade-ice-cream-c13350/index.html"
+                      },
+                      {
+                          "name":  "homemade-ice-cream-c13350/homemade-ice-cream-c13350.pdf",
+                          "size":  53827,
+                          "sha256":  "de52e4b5b8eb4b3cbbf6cb45f87be6c42427da91a29f836a2a4f04281d2bd115",
+                          "title":  "Homemade ice cream",
+                          "slug":  "homemade-ice-cream-c13350",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/homemade-ice-cream-c13350/homemade-ice-cream-c13350.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/homemade-ice-cream-c13350/homemade-ice-cream-c13350.pdf"
+                      }
                   ]
 }

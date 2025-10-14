@@ -1,0 +1,3 @@
+IN: C:\SignalArchiveWork\DROP_INBOX
+PlanCount: 0
+Resolved items (first 10):

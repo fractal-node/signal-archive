@@ -1,0 +1,7 @@
+=== SUMMARY ===
+Build FAILED: 2025-10-14 14:26:03
+Warnings: 0
+Errors:   1
+
+[ERROR]
+Catalog has no renderable items (no html/pdf/epub present). Check postbuild_verify.txt + plan_inspect.txt.

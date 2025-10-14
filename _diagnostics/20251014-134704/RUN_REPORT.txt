@@ -1,0 +1,7 @@
+=== SUMMARY ===
+Build FAILED: 2025-10-14 13:47:04
+Warnings: 0
+Errors:   1
+
+[ERROR]
+No buildable items: CSV rows did not resolve to files/folders under C:\SignalArchiveWork\DROP_INBOX. Check 'source_path|source|path' values.

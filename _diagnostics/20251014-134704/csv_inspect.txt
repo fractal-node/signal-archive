@@ -1,0 +1,26 @@
+CSV: C:\SignalArchiveWork\CONFIG\metadata.csv
+RowCount: 1
+Headers: Count, Length, LongLength, Rank, SyncRoot, IsReadOnly, IsFixedSize, IsSynchronized
+Preview (first 5 rows as JSON):
+[
+    {
+        "visibility":  "signal",
+        "slug_override":  "",
+        "html_on":  "Y",
+        "tags":  "signal",
+        "pdf_on":  "Y",
+        "source_path":  "DROP_INBOX\\origin.gen.txt",
+        "title":  "PROOF-OF-SIGNAL",
+        "epub_on":  "Y"
+    },
+    {
+        "visibility":  "signal",
+        "slug_override":  "",
+        "html_on":  "Y",
+        "tags":  "keto, dessert, food, ice cream",
+        "pdf_on":  "Y",
+        "source_path":  "DROP_INBOX\\BEST ICE CREAM.txt",
+        "title":  "HOMEMADE ICE CREAM",
+        "epub_on":  "Y"
+    }
+]

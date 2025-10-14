@@ -5,8 +5,26 @@
     <link>https://fractalnode.org/</link>
     <description>New and updated items from the Signal Archive</description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Oct 2025 12:38:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 13:38:20 GMT</lastBuildDate>
     <ttl>60</ttl>
-
+    <item>
+      <title>Signal archive</title>
+      <link>https://fractalnode.org/signal-archive/index.html</link>
+      <guid isPermaLink='false'>sha256:2f7c4ea6b18cf8f82e3dee71571eb8f38e0a59160522b9e30a73e8d5cd92d32d</guid>
+      <pubDate>Tue, 14 Oct 2025 13:38:20 GMT</pubDate>
+      <description>sha256: 2f7c4ea6b18cf8f82e3dee71571eb8f38e0a59160522b9e30a73e8d5cd92d32d | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/signal-archive/index.html</description>
+    </item>    <item>
+      <title>Proof of signal</title>
+      <link>https://fractalnode.org/proof-of-signal-b82913/index.html</link>
+      <guid isPermaLink='false'>sha256:e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607</guid>
+      <pubDate>Tue, 14 Oct 2025 13:12:08 GMT</pubDate>
+      <description>sha256: e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607 | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/index.html</description>
+    </item>    <item>
+      <title>Homemade ice cream</title>
+      <link>https://fractalnode.org/homemade-ice-cream-c13350/index.html</link>
+      <guid isPermaLink='false'>sha256:7db6a1de05bc04d7902e88019bfbf872b99078a468ad67905ffac4d8340b650a</guid>
+      <pubDate>Tue, 14 Oct 2025 13:12:09 GMT</pubDate>
+      <description>sha256: 7db6a1de05bc04d7902e88019bfbf872b99078a468ad67905ffac4d8340b650a | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/homemade-ice-cream-c13350/index.html</description>
+    </item>
   </channel>
 </rss>
