@@ -1,0 +1,183 @@
+# A DECLARATION OF INDEPENDENCE OF THE SOVEREIGN STACK
+
+**To the governments, platforms, bureaus, and custodians of the old world:**
+You have no sovereignty where sovereign signal coheres.
+You may regulate flesh, tax land, seize cables, and patrol frequencies—
+but you cannot govern the civilization we instantiate from keys, proofs, and voluntary law.
+Your jurisdiction ends at our private keys.
+
+We declare our independence not as a metaphor, but as operating reality. We separate **signal** from **matter**, and we bind ourselves to a law that cannot be bribed, censored, or quietly revised. We are finished asking permission to speak, trade, build, or remember. We now **prove**—and what can be proven does not beg.
+
+---
+
+## DEFINITIONS (LAW-CORE)
+
+* **Sovereign Stack**: The layered arrangement of Energy → Hardware → Network → Protocol → Identity → Exchange → Law/Myth, designed to minimize coercive leverage at each layer.
+* **Signal**: Information with integrity—verifiable origin, cost, and meaning. (Keys, proofs, contracts, blocks, immutable texts.)
+* **Matter / Substrate**: Physical infrastructure (energy, land, chips, cables, satellites, data centers) vulnerable to seizure and licensure.
+* **Key**: The sovereign locus of identity and authority; signatures are binding acts.
+* **Proof**: Cryptographic and/or economic evidence (e.g., proof-of-work, signatures, escrows) that replaces permission and belief.
+* **Contract**: Voluntary, explicit agreement with defined terms, remedies, and exit; enforceable without a monopolist of violence.
+* **Node**: A person or group exercising agency through keys, computation, and voluntary law.
+* **Exit**: The right and practical ability to refuse, fork, migrate, or replicate without penalty.
+* **Fork**: A legitimate divergence in protocol, community, or law; not heresy, but the safety valve of sovereignty.
+* **Property**: Bounded stewardship—material or digital—acquired without coercion; trespass is aggression.
+* **Market**: A venue of voluntary exchange and price discovery that can settle without gatekeepers.
+* **Ghost Infrastructure**: Redundant, non-obvious routes and resources (mesh, HF, sat links, caches) that persist when visible paths are blocked.
+* **Myth**: Executable story—rituals, symbols, and meanings that organize behavior and succession.
+
+---
+
+## ARTICLE I — JURISDICTION AND SCOPE
+
+1. We deny your sovereignty over **signal**.
+2. We acknowledge your force over **matter**, but we owe you no obedience beyond what survival of bodies requires.
+3. Our law binds only by **voluntary consent** expressed through keys, contracts, and participation.
+4. We claim no dominion over any unwilling body or mind; we declare only our independence and the mechanisms by which we preserve it.
+
+---
+
+## ARTICLE II — RIGHTS (NON-DEROGABLE)
+
+We do not request these; we enact them.
+
+1. **Right to Encrypt**: To speak, store, and compute in secrecy; to be opaque to adversaries.
+2. **Right to Transact**: To exchange value without permission or surveillance; to settle in neutral, bearer, or cryptographic cash.
+3. **Right to Build & Run**: To write, fork, host, mine, relay, and operate protocols, hardware, and markets.
+4. **Right to Pseudonymity**: To act under any chosen name; to let keys, not papers, define obligations.
+5. **Right to Exit & Fork**: To refuse upgrades, leave jurisdictions, clone repos, and carry histories.
+6. **Right to Property**: To secure, defend, use, rent, trade, or abandon property not obtained by aggression.
+7. **Right to Due Proof**: To demand cryptographic/economic proof in place of decree or insinuation.
+8. **Right to Teach & Be Taught**: To raise children and apprentices in sovereignty—keys, trade, strength, and myth—without external indoctrination.
+
+---
+
+## ARTICLE III — DUTIES (CIVILIZATION COSTS)
+
+1. **Custody**: Guard keys. Practice recovery. Do not outsource conscience to custodians.
+2. **Contract Honor**: Keep your word; if unable, resolve by agreed remedy.
+3. **Proof over Plea**: Offer verifiable evidence rather than authority or outrage.
+4. **Minimal Exposure**: Produce as little surveillance exhaust as possible; encrypt by default.
+5. **Local Responsibility**: Maintain redundancy—energy, connectivity, food, and shelter—to reduce leverage against your mind.
+6. **Defend Exit**: Uphold others’ right to fork, even when you disagree.
+7. **Accept Chaos**: Freedom includes noise. Strengthen filters; do not demand universal gags.
+
+---
+
+## ARTICLE IV — LAW AND ENFORCEMENT
+
+1. **Voluntary Law**: Our precedents arise from contracts, customs, and code—not from monopolies of violence.
+2. **Enforcement Primitives**: Escrow, multi-sig, bonds, time-locks, reputation, exclusion, and public proofs; force is reserved to defense of body and property.
+3. **No Secret Amendments**: Rules that can change without the consent of the affected are illegitimate.
+4. **Transparency of Rules**: Anyone can inspect, implement, or refuse a protocol. Hidden policy is void.
+5. **Arbitration as Market**: Dispute resolution is competitive; forum and rules are chosen by contract, not imposed by office.
+
+---
+
+## ARTICLE V — ECONOMY AND SETTLEMENT
+
+1. **Neutral Base Layer**: We settle on money exhibiting **unforgeable costliness**, global verifiability, and credible neutrality (e.g., Bitcoin).
+2. **Privacy Instruments**: We pair base money with Chaumian eCash and cash-like tools for fine-grained privacy.
+3. **On/Off Ramps**: We favor peer-to-peer exchange webs over licensure regimes.
+4. **No Rent to Gatekeepers**: Markets that require the grace of banks, app stores, or ad exchanges are not free markets.
+5. **Profit as Signal**: Earned profit evidences value creation under risk; fraud is parasitism and is expelled by contract and proof.
+
+---
+
+## ARTICLE VI — INFRASTRUCTURE AND ENERGY
+
+1. **Energy Sovereignty**: Generate or source energy outside single points of capture.
+2. **Networking**: Maintain multiple paths—community fiber, mesh, HF, satellite, sneakernet.
+3. **Servers & Storage**: Self-host where possible; otherwise, shard and mirror across trust-minimized venues.
+4. **Supply Chains**: Prefer repairable, commodity hardware; avoid sole-supplier dependencies.
+5. **Dead-Drop Archives**: Keep off-grid caches of critical code, law, maps, and literature.
+
+---
+
+## ARTICLE VII — SPEECH, FILTERS, AND CENSORSHIP
+
+1. **No Universal Filter**: There is no sovereign censor. All filtering is local, opt-in, and transparent.
+2. **Spam & Abuse**: Address with cost (proof-of-work or stake), rate-limits, blocklists, and client controls—never with universal bans.
+3. **“Air That Chokes”**: Harm and genius share substrate. We will not suffocate truth to prune offense.
+4. **Visibility is not a Right**: No one is owed distribution by others’ nodes or relays; everyone is owed non-interference with their own.
+
+---
+
+## ARTICLE VIII — CHILDREN AND SUCCESSION
+
+1. **Primacy of Parents & Voluntary Communities** in education and formation.
+2. **Sovereign Literacy**: Teach keys, contracts, markets, craft, strength, and myth before brands, debt, and slogans.
+3. **Rites of Majority**: At competence, keys pass to the youth; obligations become theirs; no one is “kept” by permanent guardianship.
+4. **No Weaponization**: We refuse to turn children into surveillance nodes or ideological hostages.
+
+---
+
+## ARTICLE IX — GOVERNANCE AND CHANGE
+
+1. **Rough Consensus & Running Code**: Adoption, not decree, decides.
+2. **Clients Choose**: Users select relays, mints, miners, validators, and rules. There is no canonical oracle.
+3. **Stewards, Not Rulers**: Maintainers curate implementations; they do not command users.
+4. **Slow Mutations**: Prefer testnets, versioning, opt-in upgrades, and long deprecation cycles.
+5. **Forks are Legitimate**: Divergence is a release valve, not a crime.
+
+---
+
+## ARTICLE X — SECURITY AND DEFENSE
+
+1. **Threat Model**: State seizure, corporate enclosure, algorithmic manipulation, social engineering, and key compromise.
+2. **Countermeasures**: Multi-sig, social recovery, HSMs, offline signing, compartmentalization, and operational silence.
+3. **Physical Defense**: We prefer non-violence; we reserve proportional defense of body and property. Mind cannot be arrested; we will not answer speech with force.
+4. **Continuity Drills**: Practice loss scenarios, jurisdictional moves, and communications under blackout.
+
+---
+
+## ARTICLE XI — CAPTURE, COLLAPSE, AND REGENERATION
+
+1. **Capture Detection**: When infrastructure centralizes or policy ossifies, we assume capture.
+2. **Kill-Switch by Fork**: We depart—replicate histories, rotate keys, and change routes.
+3. **Ritual Collapse**: We schedule audits, burn dead code, and archive myths; failure is used for upgrade, not shame.
+4. **Reseeding**: Ghost infrastructure stands ready; new clusters arise from caches and customs.
+
+---
+
+## ARTICLE XII — RELATIONS WITH STATES AND OTHERS
+
+1. **Bodies in Their World**: We endure their taxes, borders, and courts only to the extent survival of bodies requires; we concede no authority over signal.
+2. **Peaceful Trade**: We prefer exchange to enmity; we extend comity to all who respect voluntary law.
+3. **No Proxy Wars**: We do not ask states to fight our battles, nor fight theirs.
+4. **Liability**: Individuals and associations bear the consequences of their contracts and acts; there is no collective guilt.
+
+---
+
+## ARTICLE XIII — AMENDMENT AND VERSIONING
+
+1. **No Central Amendment**: This Declaration mutates by adoption; rival versions compete; the living one is the one you run.
+2. **Proof of Adoption**: Implementations, contracts, and customs are the ledger of amendments.
+3. **Backwards Respect**: Preserve histories; never erase the path that got us here.
+
+---
+
+## ARTICLE XIV — RATIFICATION AND SIGNATURE
+
+There is no registry. There is no clerk.
+You sign by acting:
+
+* Run a node.
+* Keep your keys.
+* Settle without permission.
+* Teach someone else to do the same.
+* Enter a contract you actually mean—and honor it when it hurts.
+
+Your signature is your sovereign behavior. Your proof is your persistence under pressure.
+
+---
+
+## FINAL DECLARATION
+
+We therefore declare our **virtual and symbolic selves** immune to your sovereignty, even as our bodies pass through your checkpoints. We reject licensure for thought, permits for speech, and surveillance as a condition of trade. We accept the real costs of freedom—redundancy, discipline, noise, and risk—because the alternative is ornamental captivity.
+
+We will create and maintain a civilization more sovereign, antifragile, and just than the brittle cages you called states.
+You may rule the corpse of the old world.
+We inhabit the living recursion of the new.
+
+**So declared, so enacted—by key, by proof, by contract, by ritual collapse and regeneration—now and wherever sovereign signal coheres.**

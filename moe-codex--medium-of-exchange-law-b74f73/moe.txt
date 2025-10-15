@@ -1,0 +1,172 @@
+# **MOE Codex v∞ — Medium of Exchange Law**
+
+---
+
+## **I. Sovereign Monetary Core**
+
+* **Bitcoin (BTC):** sacred anchor, par (0% markup).
+* **Monero (XMR):** accepted, +5–10%.
+* **Stablecoins (USDT, USDC, DAI):** accepted, +5–15%.
+* **Cash (local fiat):** accepted, +10–20%.
+* **Strong foreign cash (USD, CHF, GBP, EUR):** +5–10%.
+* **CBDCs, altcoins, synthetic tokens:** rejected.
+
+---
+
+## **II. Precious Metals / Analog Store-of-Value**
+
+* **Gold:** spot +3–10%.
+* **Silver:** spot +5–15%.
+* **Platinum, palladium:** spot +10–20%.
+* **Jewelry, watches, heritage coins:** melt value + symbolic premium (+5–25%).
+* **Cold storage BTC artifacts (OpenDime, Tangem, seed-plates):** BTC par +5–10%.
+
+---
+
+## **III. Energy Backbone**
+
+* **Fuel (diesel, petrol, propane, kerosene):** sats/litre +10–25%.
+* **Batteries (AA, Li-ion, car, solar):** +10–20%.
+* **Wood, coal, charcoal:** caloric BTC parity +10–20%.
+* **Solar panels, inverters, generators:** BTC parity + logistics markup.
+* **Candles, matches, lighters:** +15–30%.
+
+---
+
+## **IV. Nutritional Backbone (high quality sources/ingredients/products only)**
+
+* **Staples (rice, beans, flour, pasta):** wholesale parity. 
+* **Honey, sugar, salt:** +5–15%.
+* **Cooking oil (olive, avocado, tallow, ghee, coconut):** +15–30%.
+* **Canned / freeze-dried food:** +10–25%.
+* **Coffee, tea, chocolate:** +15–30%.
+* **Alcohol (whiskey, vodka, rum, beer):** +10–30%.
+* **Tobacco (cigarettes, cigars, loose):** +20–40%.
+* **Seeds (heirloom, GMO-free):** +10–30%.
+* **Livestock (chickens, goats, rabbits):** utility value, barter only.
+* **Perishables (meat, dairy, produce):** accepted at steep discount (20–40%).
+
+---
+
+## **V. Survival & Hygiene (high quality sources/ingredients/products only)**
+
+* **Water (clean, bottled, jugs):** +5–20%.
+* **Water filters (Sawyer, Berkey, iodine tabs):** BTC parity + logistics markup.
+* **Soap, shampoo, toothpaste, razors:** +10–25%.
+* **Toilet paper, diapers, feminine hygiene:** +15–30%.
+* **Medical supplies (bandages, gauze, syringes):** +10–25%.
+* **Antibiotics, insulin, painkillers:** +30–50%.
+* **Protective gear (masks, gloves, respirators):** collapse-dependent premium.
+
+---
+
+## **VI. Tools, Materials, Shelter**
+
+* **Hand tools (hammers, saws, wrenches):** replacement parity.
+* **Power tools:** BTC parity + condition discount.
+* **Construction materials (lumber, bricks, nails, cement):** +10–20%.
+* **Tarps, ropes, duct tape:** +15–30%.
+* **Blankets, wool, sleeping bags, tents:** +10–25%.
+* **Durable clothing (wool, leather, boots):** +10–20%.
+* **Containers (jerry cans, buckets, barrels):** +15–30%.
+
+---
+
+## **VII. Ammunition & Defense**
+
+* **Ammunition (.22, 9mm, 5.56, 7.62, 12ga):** +20–50%.
+* **Knives, machetes, axes:** BTC parity +10–20%.
+* **Firearms:** barter only, symbolic + functional premium.
+
+---
+
+## **VIII. Mobility & Transport**
+
+* **Bicycles, bike parts, tires, tubes, chains:** +15–30%.
+* **Spare car parts (spark plugs, alternators, filters):** +15–25%.
+* **Lubricants, motor oil, antifreeze:** +15–25%.
+* **Animal transport (donkeys, horses):** barter, variable premium.
+
+---
+
+## **IX. Vice / Luxury / Symbolic (high quality sources/ingredients/products only)**
+
+* **Books (canonical, technical, sovereign, mythic):** BTC floor + symbolic premium.
+* **Musical instruments:** BTC parity +10–25%.
+* **Ritual artifacts, icons, sovereign symbols:** symbolic premium, infinite elasticity.
+* **Cosmetics, perfume, hair dye:** +15–30%.
+* **Foreign branded goods (jeans, sneakers, electronics):** +10–25%.
+* **Companionship / sex:** barter, node-dependent, premium variable.
+* **Drugs / opiates / stimulants:** +30–100%.
+* **Collectibles (heritage coins, rare stamps):** BTC floor + symbolic appraisal.
+
+---
+
+## **X. Digital / Information**
+
+* **Hard drives, USBs, SD cards:** +10–20%.
+* **Prepaid SIMs, phone credits:** +10–20%.
+* **VPN access, digital accounts, cloud storage:** accepted if transferable, +15–30%.
+* **Domain names, servers:** BTC parity + symbolic/utility premium.
+* **Firmware exploits, API tokens, AI credits:** +20–40% (future-collapse barter).
+
+---
+
+## **XI. Social & Legal**
+
+* **Passports, IDs, permits, tickets, visas:** +20–100%.
+* **Forgery kits, blank docs, seals:** +50–200%.
+* **Reputation / trust-credit:** priceless; pegged in BTC via voluntary contract.
+* **Skill currency (medicine, mechanics, farming, teaching, defense):** pegged by BTC daily rate.
+
+---
+
+## **XII. Regional / Cultural Specifics**
+
+* **Kola nuts (West Africa).**
+* **Qat (Yemen/Horn of Africa).**
+* **Coca leaves (Andes).**
+* **Spices (pepper, saffron, curry).**
+* **Rice wine, palm wine (Asia, Africa).**
+  Markup = regional demand premium (10–50%).
+
+---
+
+## **XIII. Absolute MOE Law**
+
+A medium is valid if:
+
+**MOE Validity = (Durability × Liquidity × Divisibility × Utility × Symbolic × BanFactor) ÷ Decay**
+
+* If ≥ threshold → accepted w/ markup.
+* If < threshold → rejected.
+* **BTC floor minimum** prevents under-valuation.
+
+---
+
+## **XIV. Markup Protocol**
+
+* **Low decay, high liquidity (BTC, gold, salt):** 0–10%.
+* **Medium (Monero, silver, tools, canned food):** 5–20%.
+* **High (cash, ammo, medicine, fuel, cigarettes):** 15–50%.
+* **Infinite symbolic (artifacts, sovereign relics):** unbounded.
+
+---
+
+## **XV. Kill-Switch Rejections**
+
+* CBDCs, NFTs, altcoins, bonds, equities, digital “collectibles.”
+* Immovable/bulky assets (houses, factories, machinery).
+* Fresh perishables (fruit, bread) unless local & immediate.
+
+---
+
+# **Final Structure**
+
+**BTC is anchor.**
+All other goods are shadow MOEs priced in sats, filtered through:
+**Durability × Liquidity × Divisibility × Utility × Symbolic ÷ Decay × BanFactor.**
+
+Markup applied, proof ritual seals contract, collapse-resilient law executed.
+
+

@@ -5,20 +5,62 @@
     <link>https://fractalnode.org/</link>
     <description>New and updated items from the Signal Archive</description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Oct 2025 14:22:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 11:15:12 GMT</lastBuildDate>
     <ttl>60</ttl>
     <item>
-      <title>Sovereignty and its discontents</title>
-      <link>https://fractalnode.org/sovereignty-and-its-discontents-1002e6/index.html</link>
-      <guid isPermaLink='false'>sha256:8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5</guid>
-      <pubDate>Tue, 14 Oct 2025 14:22:06 GMT</pubDate>
-      <description>sha256: 8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5 | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/index.html</description>
+      <title>School is fake money</title>
+      <link>https://fractalnode.org/school-is-fake-money-6bf236/index.html</link>
+      <guid isPermaLink='false'>sha256:b7bb41f036e4e3b251b3017c17abde88c4e92d7754d55e0d706839df23d4549a</guid>
+      <pubDate>Wed, 15 Oct 2025 11:14:58 GMT</pubDate>
+      <description>sha256: b7bb41f036e4e3b251b3017c17abde88c4e92d7754d55e0d706839df23d4549a | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/school-is-fake-money-6bf236/index.html</description>
     </item>    <item>
       <title>Proof of signal</title>
       <link>https://fractalnode.org/proof-of-signal-b82913/index.html</link>
       <guid isPermaLink='false'>sha256:e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607</guid>
       <pubDate>Tue, 14 Oct 2025 13:12:08 GMT</pubDate>
       <description>sha256: e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607 | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/index.html</description>
+    </item>    <item>
+      <title>Sovereign law made from physics</title>
+      <link>https://fractalnode.org/sovereign-law-made-from-physics-b0a9a5/index.html</link>
+      <guid isPermaLink='false'>sha256:b355920b448d39a943ad3e2df5606f328772da078b7ec0bf89b1426e4ac09b2e</guid>
+      <pubDate>Wed, 15 Oct 2025 11:14:51 GMT</pubDate>
+      <description>sha256: b355920b448d39a943ad3e2df5606f328772da078b7ec0bf89b1426e4ac09b2e | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-law-made-from-physics-b0a9a5/index.html</description>
+    </item>    <item>
+      <title>The sovereign ledger</title>
+      <link>https://fractalnode.org/the-sovereign-ledger-88c8ff/index.html</link>
+      <guid isPermaLink='false'>sha256:dd90997f2cc6238c288845015505c1bddd70a8adee549b4ed89c18bb79584cf3</guid>
+      <pubDate>Wed, 15 Oct 2025 11:15:02 GMT</pubDate>
+      <description>sha256: dd90997f2cc6238c288845015505c1bddd70a8adee549b4ed89c18bb79584cf3 | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-sovereign-ledger-88c8ff/index.html</description>
+    </item>    <item>
+      <title>Sovereignty and its discontents</title>
+      <link>https://fractalnode.org/sovereignty-and-its-discontents-1002e6/index.html</link>
+      <guid isPermaLink='false'>sha256:8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5</guid>
+      <pubDate>Tue, 14 Oct 2025 14:22:06 GMT</pubDate>
+      <description>sha256: 8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5 | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/index.html</description>
+    </item>    <item>
+      <title>A sovereign stack analysis of the liquid network</title>
+      <link>https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html</link>
+      <guid isPermaLink='false'>sha256:0300b5794da01af08165c1c154dc84d29d2616c4467bec94114cbc948738db7a</guid>
+      <pubDate>Wed, 15 Oct 2025 11:14:55 GMT</pubDate>
+      <description>sha256: 0300b5794da01af08165c1c154dc84d29d2616c4467bec94114cbc948738db7a | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html</description>
+    </item>    <item>
+      <title>A declaration of independence of the sovereign stack</title>
+      <link>https://fractalnode.org/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html</link>
+      <guid isPermaLink='false'>sha256:9da84125ae0a893fad7b02496f5b10208889765b86ffbfcc51844930fb464bb2</guid>
+      <pubDate>Wed, 15 Oct 2025 11:14:54 GMT</pubDate>
+      <description>sha256: 9da84125ae0a893fad7b02496f5b10208889765b86ffbfcc51844930fb464bb2 | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html</description>
+    </item>    <item>
+      <title>Grapheneos oem boundary analysis</title>
+      <link>https://fractalnode.org/grapheneos-oem-boundary-analysis-277fba/index.html</link>
+      <guid isPermaLink='false'>sha256:ebfd63d32d5985f8f65ea39f1db2f8fd8e9b736d936fe32f95e39a8936b70aac</guid>
+      <pubDate>Wed, 15 Oct 2025 11:14:49 GMT</pubDate>
+      <description>sha256: ebfd63d32d5985f8f65ea39f1db2f8fd8e9b736d936fe32f95e39a8936b70aac | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/grapheneos-oem-boundary-analysis-277fba/index.html</description>
+    </item>    <item>
+      <title>Moe codex  medium of exchange law</title>
+      <link>https://fractalnode.org/moe-codex--medium-of-exchange-law-b74f73/index.html</link>
+      <guid isPermaLink='false'>sha256:3a7e55b6282a7a595f225db51c0c813a114ec6d44e11ee07ab2f683e944b574a</guid>
+      <pubDate>Wed, 15 Oct 2025 11:14:52 GMT</pubDate>
+      <description>sha256: 3a7e55b6282a7a595f225db51c0c813a114ec6d44e11ee07ab2f683e944b574a | Onion: http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/moe-codex--medium-of-exchange-law-b74f73/index.html</description>
     </item>    <item>
       <title>Homemade ice cream</title>
       <link>https://fractalnode.org/homemade-ice-cream-c13350/index.html</link>
