@@ -1,0 +1,7 @@
+=== SUMMARY ===
+Build completed: 2025-10-16 21:46:02
+Warnings: 1
+Errors:   0
+
+[WARN]
+Catalog yielded 0 renderable items. Falling back to filesystem discovery (tags unavailable).
