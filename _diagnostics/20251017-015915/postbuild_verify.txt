@@ -1,0 +1,17 @@
+[VERIFY] proof-of-signal-b82913 -> html=True pdf=True epub=False
+[VERIFY] homemade-ice-cream-c13350 -> html=True pdf=True epub=False
+[VERIFY] sovereignty-and-its-discontents-1002e6 -> html=True pdf=True epub=True
+[VERIFY] grapheneos-oem-boundary-analysis-277fba -> html=True pdf=True epub=True
+[VERIFY] sovereign-law-made-from-physics-b0a9a5 -> html=True pdf=True epub=False
+[VERIFY] moe-codex--medium-of-exchange-law-b74f73 -> html=True pdf=True epub=False
+[VERIFY] a-declaration-of-independence-of-the-sovereign-stack-9c3d18 -> html=True pdf=True epub=False
+[VERIFY] a-sovereign-stack-analysis-of-the-liquid-network-ec782e -> html=True pdf=True epub=True
+[VERIFY] school-is-fake-money-6bf236 -> html=True pdf=True epub=True
+[VERIFY] the-sovereign-ledger-88c8ff -> html=True pdf=True epub=True
+[VERIFY] universal-health-advice-eaf15e -> html=True pdf=True epub=False
+[VERIFY] hardlaw-89a956 -> html=True pdf=True epub=True
+[VERIFY] the-phenomenon-of-sovereign-man-02f3ee -> html=True pdf=True epub=True
+[VERIFY] the-sovereign-wealth-codex-b75d27 -> html=True pdf=True epub=True
+[VERIFY] the-devourer-of-time-8cc6bc -> html=True pdf=True epub=True
+[VERIFY] codex-of-sovereign-transmission-242db1 -> html=True pdf=True epub=True
+[VERIFY] on-convenience-and-frictionless-living-f220df -> html=True pdf=True epub=True

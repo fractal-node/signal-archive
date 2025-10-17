@@ -24,31 +24,29 @@
   <input id='q' placeholder='Search titles, tags, hashes...' aria-describedby='q-count' aria-label='Search titles, tags, hashes'>
   <div id='q-count' class='meta' style='margin-top:.4rem;'></div>
 </div>
-<script>
-(function(){
-  const input = document.getElementById('q');
-  const grid  = document.querySelector('.grid');
-  const cards = Array.prototype.slice.call(document.querySelectorAll('.grid .card'));
-  const count = document.getElementById('q-count');
-
-  function apply(){
-    const q = (input.value || '').toLowerCase().trim();
-    let shown = 0;
-    for(const c of cards){
-      const hay = ((c.dataset.title||'')+' '+(c.dataset.tags||'')+' '+(c.dataset.sha||'')).toLowerCase();
-      const match = !q || hay.indexOf(q) !== -1;
-      c.hidden = !match;
-      if(match) shown++;
-    }
-    count.textContent = shown + (shown === 1 ? ' item' : ' items');
-    // keep grid visible even if zero; empty state could be added here if desired
-  }
-
-  input.addEventListener('input', apply);
-  apply();
-})();
-</script>
 <section class='grid' aria-label='Artifacts'><article class='card card--verified'
+  data-title="Sovereignty and its discontents"
+  data-tags=""
+  data-sha="8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5">
+  <div class='h'>Sovereignty and its discontents</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-14</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/sovereignty-and-its-discontents-1002e6/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreiel5jehwuni2uec4z6xugvdnzfevo4glyfltz4vg6j746rzvqft4u'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5</div></details>
+</article>
+<article class='card card--verified'
+  data-title="The devourer of time"
+  data-tags=""
+  data-sha="47b0b68595676b68b003e699b499a21b72720b8ea82850419260b94e49b3b138">
+  <div class='h'>The devourer of time</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-17</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/the-devourer-of-time-8cc6bc/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreichwc3ilflhnnulaa7gtg2jtiq3ojzaxdvifbiedetaxfhetm5rha'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 47b0b68595676b68b003e699b499a21b72720b8ea82850419260b94e49b3b138</div></details>
+</article>
+<article class='card card--verified'
   data-title="School is fake money"
   data-tags=""
   data-sha="b7bb41f036e4e3b251b3017c17abde88c4e92d7754d55e0d706839df23d4549a">
@@ -58,17 +56,6 @@
   <div class='links'><a href='https://ipfs.io/ipfs/bafkreifxxna7anxe4ozfdmybpql2xxuiytus252u2vpa24dihhpshvcuti'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/school-is-fake-money-6bf236/index.html'>Onion</a></div>
   
   <details><summary>Proofs</summary><div class='proof'>sha256: b7bb41f036e4e3b251b3017c17abde88c4e92d7754d55e0d706839df23d4549a</div></details>
-</article>
-<article class='card card--verified'
-  data-title="Proof of signal"
-  data-tags=""
-  data-sha="e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607">
-  <div class='h'>Proof of signal</div>
-  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-14</span></div>
-  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/proof-of-signal-b82913/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/proof-of-signal-b82913/proof-of-signal-b82913.pdf'>PDF</a></div>
-  <div class='links'><a href='https://ipfs.io/ipfs/bafkreihgnbezgengpe2jlmqo4mvo4uj6by2cir3pmxzyi4yzz55exavwa4'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/index.html'>Onion</a></div>
-  
-  <details><summary>Proofs</summary><div class='proof'>sha256: e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607</div></details>
 </article>
 <article class='card card--verified'
   data-title="Sovereign law made from physics"
@@ -82,6 +69,39 @@
   <details><summary>Proofs</summary><div class='proof'>sha256: b355920b448d39a943ad3e2df5606f328772da078b7ec0bf89b1426e4ac09b2e</div></details>
 </article>
 <article class='card card--verified'
+  data-title="The sovereign wealth codex"
+  data-tags=""
+  data-sha="860e974a4c70ba2acefc61e235858842a3059d7e4ffa57a14cf51ed7892950c0">
+  <div class='h'>The sovereign wealth codex</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-17</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/the-sovereign-wealth-codex-b75d27/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/the-sovereign-wealth-codex-b75d27/the-sovereign-wealth-codex-b75d27.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/the-sovereign-wealth-codex-b75d27/the-sovereign-wealth-codex-b75d27.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreiegb2luutdqxivm57db4i2ylcccumcz27sp7jl2cthvd3lyskkqya'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-sovereign-wealth-codex-b75d27/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 860e974a4c70ba2acefc61e235858842a3059d7e4ffa57a14cf51ed7892950c0</div></details>
+</article>
+<article class='card card--verified'
+  data-title="Universal health advice"
+  data-tags=""
+  data-sha="930c98763aeda81cc7e67a1dec90bc69c7a93a830b832e928e23d245cf20c6e1">
+  <div class='h'>Universal health advice</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-17</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/universal-health-advice-eaf15e/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/universal-health-advice-eaf15e/universal-health-advice-eaf15e.pdf'>PDF</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreietbsmhmoxnvaompzt2dxwjbpdjy6utvaylqmxjfdrd2jc46igg4e'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/universal-health-advice-eaf15e/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 930c98763aeda81cc7e67a1dec90bc69c7a93a830b832e928e23d245cf20c6e1</div></details>
+</article>
+<article class='card card--verified'
+  data-title="The phenomenon of sovereign man"
+  data-tags=""
+  data-sha="118edceac5efe911518034bc55d77e3eacebd5b612d1ce9a1248f7100bc3ffb0">
+  <div class='h'>The phenomenon of sovereign man</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-17</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreiarr3oovrpp5eivdabuxrk5o7r6vtv5lnqs2hhjuesi64iaxq77wa'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 118edceac5efe911518034bc55d77e3eacebd5b612d1ce9a1248f7100bc3ffb0</div></details>
+</article>
+<article class='card card--verified'
   data-title="The sovereign ledger"
   data-tags=""
   data-sha="dd90997f2cc6238c288845015505c1bddd70a8adee549b4ed89c18bb79584cf3">
@@ -93,37 +113,26 @@
   <details><summary>Proofs</summary><div class='proof'>sha256: dd90997f2cc6238c288845015505c1bddd70a8adee549b4ed89c18bb79584cf3</div></details>
 </article>
 <article class='card card--verified'
-  data-title="Sovereignty and its discontents"
+  data-title="Proof of signal"
   data-tags=""
-  data-sha="8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5">
-  <div class='h'>Sovereignty and its discontents</div>
+  data-sha="e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607">
+  <div class='h'>Proof of signal</div>
   <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-14</span></div>
-  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/sovereignty-and-its-discontents-1002e6/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.epub'>EPUB</a></div>
-  <div class='links'><a href='https://ipfs.io/ipfs/bafkreiel5jehwuni2uec4z6xugvdnzfevo4glyfltz4vg6j746rzvqft4u'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/index.html'>Onion</a></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/proof-of-signal-b82913/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/proof-of-signal-b82913/proof-of-signal-b82913.pdf'>PDF</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreihgnbezgengpe2jlmqo4mvo4uj6by2cir3pmxzyi4yzz55exavwa4'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/index.html'>Onion</a></div>
   
-  <details><summary>Proofs</summary><div class='proof'>sha256: 8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5</div></details>
+  <details><summary>Proofs</summary><div class='proof'>sha256: e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607</div></details>
 </article>
 <article class='card card--verified'
-  data-title="A sovereign stack analysis of the liquid network"
+  data-title="Codex of sovereign transmission"
   data-tags=""
-  data-sha="0300b5794da01af08165c1c154dc84d29d2616c4467bec94114cbc948738db7a">
-  <div class='h'>A sovereign stack analysis of the liquid network</div>
-  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-15</span></div>
-  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/a-sovereign-stack-analysis-of-the-liquid-network-ec782e.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/a-sovereign-stack-analysis-of-the-liquid-network-ec782e.epub'>EPUB</a></div>
-  <div class='links'><a href='https://ipfs.io/ipfs/bafkreiadac2xstnadlyiczobyfknzbgstutbnrcgppwjiekmxskioog3pi'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html'>Onion</a></div>
+  data-sha="5185e49ad2a88dec4644359c7d08d4acd1d27244ceea470f8425187439a031f9">
+  <div class='h'>Codex of sovereign transmission</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-17</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/codex-of-sovereign-transmission-242db1/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreicrqxsjvuvirxwemrbvtr6qrvfm2hjhergo5jdq7bbfdb2dtibr7e'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/index.html'>Onion</a></div>
   
-  <details><summary>Proofs</summary><div class='proof'>sha256: 0300b5794da01af08165c1c154dc84d29d2616c4467bec94114cbc948738db7a</div></details>
-</article>
-<article class='card card--verified'
-  data-title="A declaration of independence of the sovereign stack"
-  data-tags=""
-  data-sha="9da84125ae0a893fad7b02496f5b10208889765b86ffbfcc51844930fb464bb2">
-  <div class='h'>A declaration of independence of the sovereign stack</div>
-  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-15</span></div>
-  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/a-declaration-of-independence-of-the-sovereign-stack-9c3d18.pdf'>PDF</a></div>
-  <div class='links'><a href='https://ipfs.io/ipfs/bafkreie5vbasllqkre7226ycjfxvwebarcexmw4g7674yumejeypwrslwi'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html'>Onion</a></div>
-  
-  <details><summary>Proofs</summary><div class='proof'>sha256: 9da84125ae0a893fad7b02496f5b10208889765b86ffbfcc51844930fb464bb2</div></details>
+  <details><summary>Proofs</summary><div class='proof'>sha256: 5185e49ad2a88dec4644359c7d08d4acd1d27244ceea470f8425187439a031f9</div></details>
 </article>
 <article class='card card--verified'
   data-title="Grapheneos oem boundary analysis"
@@ -137,6 +146,28 @@
   <details><summary>Proofs</summary><div class='proof'>sha256: ebfd63d32d5985f8f65ea39f1db2f8fd8e9b736d936fe32f95e39a8936b70aac</div></details>
 </article>
 <article class='card card--verified'
+  data-title="A declaration of independence of the sovereign stack"
+  data-tags=""
+  data-sha="9da84125ae0a893fad7b02496f5b10208889765b86ffbfcc51844930fb464bb2">
+  <div class='h'>A declaration of independence of the sovereign stack</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-15</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/a-declaration-of-independence-of-the-sovereign-stack-9c3d18.pdf'>PDF</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreie5vbasllqkre7226ycjfxvwebarcexmw4g7674yumejeypwrslwi'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 9da84125ae0a893fad7b02496f5b10208889765b86ffbfcc51844930fb464bb2</div></details>
+</article>
+<article class='card card--verified'
+  data-title="A sovereign stack analysis of the liquid network"
+  data-tags=""
+  data-sha="0300b5794da01af08165c1c154dc84d29d2616c4467bec94114cbc948738db7a">
+  <div class='h'>A sovereign stack analysis of the liquid network</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-15</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/a-sovereign-stack-analysis-of-the-liquid-network-ec782e.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/a-sovereign-stack-analysis-of-the-liquid-network-ec782e.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreiadac2xstnadlyiczobyfknzbgstutbnrcgppwjiekmxskioog3pi'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 0300b5794da01af08165c1c154dc84d29d2616c4467bec94114cbc948738db7a</div></details>
+</article>
+<article class='card card--verified'
   data-title="Moe codex  medium of exchange law"
   data-tags=""
   data-sha="3a7e55b6282a7a595f225db51c0c813a114ec6d44e11ee07ab2f683e944b574a">
@@ -146,6 +177,28 @@
   <div class='links'><a href='https://ipfs.io/ipfs/bafkreib2pzk3mkbkpjmv6is5wuoazaj2cfhmnvcochxapkzpna7jis2xji'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/moe-codex--medium-of-exchange-law-b74f73/index.html'>Onion</a></div>
   
   <details><summary>Proofs</summary><div class='proof'>sha256: 3a7e55b6282a7a595f225db51c0c813a114ec6d44e11ee07ab2f683e944b574a</div></details>
+</article>
+<article class='card card--verified'
+  data-title="On convenience and frictionless living"
+  data-tags=""
+  data-sha="4fcc3baa761332d7e7647f3bbba7c27dd908ca77bad01d9f205e62f6842a291e">
+  <div class='h'>On convenience and frictionless living</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-17</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/on-convenience-and-frictionless-living-f220df/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/on-convenience-and-frictionless-living-f220df/on-convenience-and-frictionless-living-f220df.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/on-convenience-and-frictionless-living-f220df/on-convenience-and-frictionless-living-f220df.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreicpzq52u5qtgll6ozd7ho52pqt53eemu5522aoz6ic6ml3iikrjdy'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/on-convenience-and-frictionless-living-f220df/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 4fcc3baa761332d7e7647f3bbba7c27dd908ca77bad01d9f205e62f6842a291e</div></details>
+</article>
+<article class='card card--verified'
+  data-title="Hardlaw"
+  data-tags=""
+  data-sha="258e9214acd42cffb366731cb0412474c8d5ffa77949133590f74c67bb2ce560">
+  <div class='h'>Hardlaw</div>
+  <div class='meta'><span class=""led"" aria-hidden=""true""></span><span>Published 2025-10-17</span></div>
+  <div class='actions'><a class='btn btn--primary' href='https://fractalnode.org/hardlaw-89a956/index.html'>HTML</a> <a class='btn' href='https://fractalnode.org/hardlaw-89a956/hardlaw-89a956.pdf'>PDF</a> <a class='btn' href='https://fractalnode.org/hardlaw-89a956/hardlaw-89a956.epub'>EPUB</a></div>
+  <div class='links'><a href='https://ipfs.io/ipfs/bafkreibfr2jbjlguft73gzttdsyecjduzdk77j3zjejtlehxjrt3wlhfma'>IPFS</a> <a href='http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/index.html'>Onion</a></div>
+  
+  <details><summary>Proofs</summary><div class='proof'>sha256: 258e9214acd42cffb366731cb0412474c8d5ffa77949133590f74c67bb2ce560</div></details>
 </article>
 <article class='card card--verified'
   data-title="Homemade ice cream"
@@ -158,7 +211,28 @@
   
   <details><summary>Proofs</summary><div class='proof'>sha256: 7db6a1de05bc04d7902e88019bfbf872b99078a468ad67905ffac4d8340b650a</div></details>
 </article></section>
-<footer class='footer'><div><a href='../index.html'>Home</a> &middot; <a href='../manifest.json'>manifest.json</a> &middot; <a href='../SHA256SUMS.txt'>SHA256SUMS.txt</a> &middot; <a href='../rss.xml'>rss.xml</a></div><div>Built 2025-10-16 &middot; All artifacts cryptographically signed</div></footer>
+<script>
+(function(){
+  const input = document.getElementById('q');
+  const cards = Array.prototype.slice.call(document.querySelectorAll('.grid .card'));
+  const count = document.getElementById('q-count');
+
+  function apply(){
+    const q = (input.value || '').toLowerCase().trim();
+    let shown = 0;
+    for(const c of cards){
+      const hay = ((c.dataset.title||'')+' '+(c.dataset.tags||'')+' '+(c.dataset.sha||'')).toLowerCase();
+      const match = !q || hay.indexOf(q) !== -1;
+      c.hidden = !match;
+      if(match) shown++;
+    }
+    count.textContent = shown + (shown === 1 ? ' item' : ' items');
+  }
+
+  input.addEventListener('input', apply);
+  apply();
+})();
+</script><footer class='footer'><div><a href='../index.html'>Home</a> &middot; <a href='../manifest.json'>manifest.json</a> &middot; <a href='../SHA256SUMS.txt'>SHA256SUMS.txt</a> &middot; <a href='../rss.xml'>rss.xml</a> &middot; <a href='../LICENSE.txt'>license</a> &middot; <a href='../onAI.txt'>onAI</a></div><div>Built 2025-10-17 &middot; All artifacts cryptographically signed</div></footer>
   </main>
 </body>
 </html>

@@ -1,0 +1,227 @@
+IN: C:\SignalArchiveWork\DROP_INBOX
+PlanCount: 17
+Resolved items (first 10):
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\origin.gen.txt",
+    "srcExt":  ".txt",
+    "title":  "PROOF-OF-SIGNAL",
+    "tags":  "signal",
+    "H":  "Y",
+    "E":  "N",
+    "P":  "Y",
+    "slug":  "proof-of-signal-b82913",
+    "relDir":  "",
+    "artifactRelBase":  "proof-of-signal-b82913",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\proof-of-signal-b82913",
+    "visibility":  "signal"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\BEST ICE CREAM.txt",
+    "srcExt":  ".txt",
+    "title":  "HOMEMADE ICE CREAM",
+    "tags":  [
+                 "keto",
+                 "dessert",
+                 "food",
+                 "ice cream"
+             ],
+    "H":  "Y",
+    "E":  "N",
+    "P":  "Y",
+    "slug":  "homemade-ice-cream-c13350",
+    "relDir":  "",
+    "artifactRelBase":  "homemade-ice-cream-c13350",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\homemade-ice-cream-c13350",
+    "visibility":  "signal"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\SovereigntyAndItsDiscontents.docx",
+    "srcExt":  ".docx",
+    "title":  "Sovereignty and Its Discontents",
+    "tags":  [
+                 "civilization",
+                 "freud",
+                 "stack",
+                 "psychology",
+                 "philosophy",
+                 "sovereignty",
+                 "collapse",
+                 "myth",
+                 "law"
+             ],
+    "H":  "Y",
+    "E":  "Y",
+    "P":  "Y",
+    "slug":  "sovereignty-and-its-discontents-1002e6",
+    "relDir":  "",
+    "artifactRelBase":  "sovereignty-and-its-discontents-1002e6",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\sovereignty-and-its-discontents-1002e6",
+    "visibility":  "signal"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\OnRecentGrapheneOSAnnouncements.docx",
+    "srcExt":  ".docx",
+    "title":  "GrapheneOS OEM: Boundary Condition Analysis",
+    "tags":  [
+                 "grapheneos",
+                 "privacy",
+                 "hardware",
+                 "qualcomm",
+                 "sovereignty",
+                 "analysis",
+                 "security"
+             ],
+    "H":  "Y",
+    "E":  "Y",
+    "P":  "Y",
+    "slug":  "grapheneos-oem-boundary-analysis-277fba",
+    "relDir":  "",
+    "artifactRelBase":  "grapheneos-oem-boundary-analysis-277fba",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\grapheneos-oem-boundary-analysis-277fba",
+    "visibility":  "signal"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\Sovereign Law Made from Physics.txt",
+    "srcExt":  ".txt",
+    "title":  "Sovereign Law Made from Physics",
+    "tags":  [
+                 "bitcoin",
+                 "physics",
+                 "sovereignty",
+                 "law",
+                 "markets",
+                 "energy",
+                 "proof-of-work"
+             ],
+    "H":  "Y",
+    "E":  "N",
+    "P":  "Y",
+    "slug":  "sovereign-law-made-from-physics-b0a9a5",
+    "relDir":  "",
+    "artifactRelBase":  "sovereign-law-made-from-physics-b0a9a5",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\sovereign-law-made-from-physics-b0a9a5",
+    "visibility":  "signal"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\moe.txt",
+    "srcExt":  ".txt",
+    "title":  "MOE Codex — Medium of Exchange Law",
+    "tags":  [
+                 "bitcoin",
+                 "economics",
+                 "trade",
+                 "law",
+                 "collapse",
+                 "barter",
+                 "value",
+                 "sovereignty"
+             ],
+    "H":  "Y",
+    "E":  "N",
+    "P":  "Y",
+    "slug":  "moe-codex--medium-of-exchange-law-b74f73",
+    "relDir":  "",
+    "artifactRelBase":  "moe-codex--medium-of-exchange-law-b74f73",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\moe-codex--medium-of-exchange-law-b74f73",
+    "visibility":  "public"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\declaration.txt",
+    "srcExt":  ".txt",
+    "title":  "A DECLARATION OF INDEPENDENCE OF THE SOVEREIGN STACK",
+    "tags":  [
+                 "manifesto",
+                 "law",
+                 "sovereignty",
+                 "independence",
+                 "bitcoin",
+                 "stack",
+                 "civilization",
+                 "constitution"
+             ],
+    "H":  "Y",
+    "E":  "N",
+    "P":  "Y",
+    "slug":  "a-declaration-of-independence-of-the-sovereign-stack-9c3d18",
+    "relDir":  "",
+    "artifactRelBase":  "a-declaration-of-independence-of-the-sovereign-stack-9c3d18",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\a-declaration-of-independence-of-the-sovereign-stack-9c3d18",
+    "visibility":  "public"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\ONLIQUID.docx",
+    "srcExt":  ".docx",
+    "title":  "A Sovereign Stack Analysis of the Liquid Network",
+    "tags":  [
+                 "bitcoin",
+                 "liquid",
+                 "sovereign",
+                 "analysis",
+                 "ontology",
+                 "stack",
+                 "bridge"
+             ],
+    "H":  "Y",
+    "E":  "Y",
+    "P":  "Y",
+    "slug":  "a-sovereign-stack-analysis-of-the-liquid-network-ec782e",
+    "relDir":  "",
+    "artifactRelBase":  "a-sovereign-stack-analysis-of-the-liquid-network-ec782e",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\a-sovereign-stack-analysis-of-the-liquid-network-ec782e",
+    "visibility":  "public"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\SchoolIsFakeMoney.docx",
+    "srcExt":  ".docx",
+    "title":  "School Is Fake Money",
+    "tags":  [
+                 "education",
+                 "proof",
+                 "ordeal",
+                 "collapse",
+                 "learning",
+                 "truth",
+                 "system",
+                 "fiat"
+             ],
+    "H":  "Y",
+    "E":  "Y",
+    "P":  "Y",
+    "slug":  "school-is-fake-money-6bf236",
+    "relDir":  "",
+    "artifactRelBase":  "school-is-fake-money-6bf236",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\school-is-fake-money-6bf236",
+    "visibility":  "public"
+}
+{
+    "kind":  "text",
+    "src":  "C:\\SignalArchiveWork\\DROP_INBOX\\TheSovereignLedger.docx",
+    "srcExt":  ".docx",
+    "title":  "The Sovereign Ledger",
+    "tags":  [
+                 "bitcoin",
+                 "sovereignty",
+                 "law-core",
+                 "collapse",
+                 "philosophy",
+                 "myth",
+                 "signal"
+             ],
+    "H":  "Y",
+    "E":  "Y",
+    "P":  "Y",
+    "slug":  "the-sovereign-ledger-88c8ff",
+    "relDir":  "",
+    "artifactRelBase":  "the-sovereign-ledger-88c8ff",
+    "artifactOutDir":  "C:\\SignalArchiveWork\\WEBSITE\\build\\the-sovereign-ledger-88c8ff",
+    "visibility":  "public"
+}
