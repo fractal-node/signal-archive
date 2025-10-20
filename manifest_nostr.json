@@ -1,108 +1,78 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-15T11:17:44Z",
+    "generated_at":  "2025-10-17T01:00:31Z",
     "site_http":  "https://fractalnode.org",
     "site_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion",
     "artifacts":  [
                       {
-                          "name":  "school-is-fake-money-6bf236/index.html",
-                          "size":  62841,
-                          "sha256":  "b7bb41f036e4e3b251b3017c17abde88c4e92d7754d55e0d706839df23d4549a",
-                          "title":  "School is fake money",
-                          "slug":  "school-is-fake-money-6bf236",
+                          "name":  "the-devourer-of-time-8cc6bc/index.html",
+                          "size":  21450,
+                          "sha256":  "47b0b68595676b68b003e699b499a21b72720b8ea82850419260b94e49b3b138",
+                          "title":  "The devourer of time",
+                          "slug":  "the-devourer-of-time-8cc6bc",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/school-is-fake-money-6bf236/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/school-is-fake-money-6bf236/index.html"
+                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/index.html"
                       },
                       {
-                          "name":  "proof-of-signal-b82913/index.html",
-                          "size":  1222,
-                          "sha256":  "e668499311a6793495b20ee32aee513e0e3424476f65f3847319cf7a4b82b607",
-                          "title":  "Proof of signal",
-                          "slug":  "proof-of-signal-b82913",
+                          "name":  "the-sovereign-wealth-codex-b75d27/index.html",
+                          "size":  43340,
+                          "sha256":  "860e974a4c70ba2acefc61e235858842a3059d7e4ffa57a14cf51ed7892950c0",
+                          "title":  "The sovereign wealth codex",
+                          "slug":  "the-sovereign-wealth-codex-b75d27",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/proof-of-signal-b82913/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/index.html"
+                          "url_http":  "https://fractalnode.org/the-sovereign-wealth-codex-b75d27/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-sovereign-wealth-codex-b75d27/index.html"
                       },
                       {
-                          "name":  "sovereign-law-made-from-physics-b0a9a5/index.html",
-                          "size":  12391,
-                          "sha256":  "b355920b448d39a943ad3e2df5606f328772da078b7ec0bf89b1426e4ac09b2e",
-                          "title":  "Sovereign law made from physics",
-                          "slug":  "sovereign-law-made-from-physics-b0a9a5",
+                          "name":  "universal-health-advice-eaf15e/index.html",
+                          "size":  10398,
+                          "sha256":  "930c98763aeda81cc7e67a1dec90bc69c7a93a830b832e928e23d245cf20c6e1",
+                          "title":  "Universal health advice",
+                          "slug":  "universal-health-advice-eaf15e",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/sovereign-law-made-from-physics-b0a9a5/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-law-made-from-physics-b0a9a5/index.html"
+                          "url_http":  "https://fractalnode.org/universal-health-advice-eaf15e/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/universal-health-advice-eaf15e/index.html"
                       },
                       {
-                          "name":  "the-sovereign-ledger-88c8ff/index.html",
-                          "size":  91839,
-                          "sha256":  "dd90997f2cc6238c288845015505c1bddd70a8adee549b4ed89c18bb79584cf3",
-                          "title":  "The sovereign ledger",
-                          "slug":  "the-sovereign-ledger-88c8ff",
+                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/index.html",
+                          "size":  91859,
+                          "sha256":  "118edceac5efe911518034bc55d77e3eacebd5b612d1ce9a1248f7100bc3ffb0",
+                          "title":  "The phenomenon of sovereign man",
+                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/the-sovereign-ledger-88c8ff/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-sovereign-ledger-88c8ff/index.html"
+                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/index.html"
                       },
                       {
-                          "name":  "sovereignty-and-its-discontents-1002e6/index.html",
-                          "size":  50808,
-                          "sha256":  "8bea487b51a8d5082e67d7a1aa36e4a4abb865e0ab9e7953793fe7a39ac0b3e5",
-                          "title":  "Sovereignty and its discontents",
-                          "slug":  "sovereignty-and-its-discontents-1002e6",
+                          "name":  "codex-of-sovereign-transmission-242db1/index.html",
+                          "size":  32123,
+                          "sha256":  "5185e49ad2a88dec4644359c7d08d4acd1d27244ceea470f8425187439a031f9",
+                          "title":  "Codex of sovereign transmission",
+                          "slug":  "codex-of-sovereign-transmission-242db1",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/sovereignty-and-its-discontents-1002e6/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/index.html"
+                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/index.html"
                       },
                       {
-                          "name":  "a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html",
-                          "size":  52894,
-                          "sha256":  "0300b5794da01af08165c1c154dc84d29d2616c4467bec94114cbc948738db7a",
-                          "title":  "A sovereign stack analysis of the liquid network",
-                          "slug":  "a-sovereign-stack-analysis-of-the-liquid-network-ec782e",
+                          "name":  "on-convenience-and-frictionless-living-f220df/index.html",
+                          "size":  25383,
+                          "sha256":  "4fcc3baa761332d7e7647f3bbba7c27dd908ca77bad01d9f205e62f6842a291e",
+                          "title":  "On convenience and frictionless living",
+                          "slug":  "on-convenience-and-frictionless-living-f220df",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/index.html"
+                          "url_http":  "https://fractalnode.org/on-convenience-and-frictionless-living-f220df/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/on-convenience-and-frictionless-living-f220df/index.html"
                       },
                       {
-                          "name":  "a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html",
-                          "size":  13880,
-                          "sha256":  "9da84125ae0a893fad7b02496f5b10208889765b86ffbfcc51844930fb464bb2",
-                          "title":  "A declaration of independence of the sovereign stack",
-                          "slug":  "a-declaration-of-independence-of-the-sovereign-stack-9c3d18",
+                          "name":  "hardlaw-89a956/index.html",
+                          "size":  29616,
+                          "sha256":  "258e9214acd42cffb366731cb0412474c8d5ffa77949133590f74c67bb2ce560",
+                          "title":  "Hardlaw",
+                          "slug":  "hardlaw-89a956",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html"
-                      },
-                      {
-                          "name":  "grapheneos-oem-boundary-analysis-277fba/index.html",
-                          "size":  14861,
-                          "sha256":  "ebfd63d32d5985f8f65ea39f1db2f8fd8e9b736d936fe32f95e39a8936b70aac",
-                          "title":  "Grapheneos oem boundary analysis",
-                          "slug":  "grapheneos-oem-boundary-analysis-277fba",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/grapheneos-oem-boundary-analysis-277fba/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/grapheneos-oem-boundary-analysis-277fba/index.html"
-                      },
-                      {
-                          "name":  "moe-codex--medium-of-exchange-law-b74f73/index.html",
-                          "size":  8802,
-                          "sha256":  "3a7e55b6282a7a595f225db51c0c813a114ec6d44e11ee07ab2f683e944b574a",
-                          "title":  "Moe codex  medium of exchange law",
-                          "slug":  "moe-codex--medium-of-exchange-law-b74f73",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/moe-codex--medium-of-exchange-law-b74f73/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/moe-codex--medium-of-exchange-law-b74f73/index.html"
-                      },
-                      {
-                          "name":  "homemade-ice-cream-c13350/index.html",
-                          "size":  4894,
-                          "sha256":  "7db6a1de05bc04d7902e88019bfbf872b99078a468ad67905ffac4d8340b650a",
-                          "title":  "Homemade ice cream",
-                          "slug":  "homemade-ice-cream-c13350",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/homemade-ice-cream-c13350/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/homemade-ice-cream-c13350/index.html"
+                          "url_http":  "https://fractalnode.org/hardlaw-89a956/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/index.html"
                       }
                   ]
 }

@@ -2,33 +2,125 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  
-  <title>fractalnode</title>
+  <title>fractalnode — Signal Archive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Uses the theme CSS your script copies to /assets/style.css -->
   <link rel="stylesheet" href="/assets/style.css">
+  <!-- RSS discoverability -->
+  <link rel="alternate" type="application/rss+xml" title="Signal Archive RSS" href="/rss.xml">
+  <meta name="description" content="Signal Archive · cryptographically signed artifacts, manifest, checksums, RSS, and onion links.">
+
+  <style>
+    /* Minimal layout helpers (won’t fight your theme) */
+    :root {
+      --maxw: 920px;
+      --pad: 1.25rem;
+    }
+    body { display: flex; min-height: 100vh; flex-direction: column; }
+    .wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: var(--pad); }
+    header.site {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: calc(var(--pad) * .5); padding-bottom: calc(var(--pad) * .5);
+    }
+    .brand { font-weight: 700; letter-spacing: .02em; }
+    .brand a { text-decoration: none; }
+    .hero {
+      padding: calc(var(--pad) * 2) 0;
+    }
+    .hero h1 { font-size: clamp(1.75rem, 2.8vw, 2.5rem); margin: 0 0 .5rem 0; }
+    .hero p  { margin: 0 0 1.25rem 0; opacity: .9; line-height: 1.5; }
+    .cta { display: flex; flex-wrap: wrap; gap: .6rem; }
+    .cta .btn {
+      display: inline-block; padding: .6rem .9rem; border: 1px solid currentColor;
+      text-decoration: none; border-radius: .35rem; font-weight: 600;
+    }
+    .cta .btn--primary {
+      border: none;
+    }
+    .grid-links {
+      display: grid; gap: .75rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-top: 1.25rem;
+    }
+    .card {
+      border: 1px solid rgba(127,127,127,.25); border-radius: .5rem; padding: .9rem;
+    }
+    .card .h { font-weight: 700; margin-bottom: .35rem; }
+    footer.footer {
+      margin-top: auto; padding: 1.25rem 0; opacity: .9;
+      border-top: 1px solid rgba(127,127,127,.25);
+    }
+    footer .links { display: flex; flex-wrap: wrap; gap: .6rem; }
+  </style>
 </head>
 <body>
+  <header class="site wrap">
+    <div class="brand"><a href="/">fractalnode</a></div>
+    <nav class="top">
+      <a href="/signal-archive/">Archive</a>
+    </nav>
+  </header>
+
   <main class="wrap">
-    <header class="brand" aria-label="Header">
-      <div class="logo">
-        <span class="glyph" aria-hidden="true"></span>
-        <span>Signal Archive</span>
+    <section class="hero" aria-label="Overview">
+      <h1>Signal Archive</h1>
+      <p>
+        Cumulative, cryptographically signed artifacts. Deterministic builds, onion mirrors,
+        IPFS pins, manifest & checksums. Neutral protocol—proof over narrative.
+      </p>
+      <div class="cta">
+        <a class="btn btn--primary" href="/signal-archive/">Enter Archive</a>
+        <a class="btn" href="/rss.xml">RSS Feed</a>
+        <a class="btn" href="/manifest.json">manifest.json</a>
+        <a class="btn" href="/SHA256SUMS.txt">SHA256SUMS.txt</a>
       </div>
-      <div class="kicker">Immutable proofs of publication &mdash; HTML &middot; PDF &middot; EPUB</div>
-    </header>
 
-    <div class="hr" aria-hidden="true"></div>
+      <div class="grid-links" style="margin-top:1.25rem;">
+        <div class="card">
+          <div class="h">Integrity</div>
+          <p>Each artifact includes SHA-256 and detached signatures. Verify with <code>SHA256SUMS.txt</code> and GPG.</p>
+        </div>
+        <div class="card">
+          <div class="h">Redundancy</div>
+          <p>Primary (clearnet), onion mirror, and IPFS pins (best formats). Manifest enumerates all published assets.</p>
+        </div>
+        <div class="card">
+          <div class="h">Determinism</div>
+          <p>Builds are atomic. Catalog & UI are generated from authoritative post-build scans.</p>
+        </div>
+      </div>
+    </section>
 
-    <section>
-  <p><a href='signal-archive/'>Signal Archive</a></p>
-  <p>
-    <a href='manifest.json'>manifest.json</a>
-    &middot; <a href='SHA256SUMS.txt'>SHA256SUMS.txt</a>
-    &middot; <a href='rss.xml'>rss.xml</a>
-    &middot; <a href='LICENSE.txt'>license</a>
-    &middot; <a href='onAI.txt'>onAI</a>
-  </p>
-</section>
+    <section aria-label="Quick Links" class="wrap" style="padding-bottom:1rem;">
+      <h2 style="margin:1.25rem 0 .5rem 0; font-size:1.1rem;">Quick Links</h2>
+      <ul>
+        <li><a href="/signal-archive/">Signal Archive</a></li>
+        <li><a href="/manifest.json">manifest.json</a></li>
+        <li><a href="/SHA256SUMS.txt">SHA256SUMS.txt</a></li>
+        <li><a href="/rss.xml">rss.xml</a></li>
+        <li><a href="/LICENSE.txt">license</a></li>
+        <li><a href="/onAI.txt">onAI</a></li>
+      </ul>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="links">
+        <a href="/">Home</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="/signal-archive/">Archive</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="/manifest.json">manifest.json</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="/SHA256SUMS.txt">SHA256SUMS.txt</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="/rss.xml">rss.xml</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="/LICENSE.txt">license</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="/onAI.txt">onAI</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
