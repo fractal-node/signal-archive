@@ -1,31 +1,11 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-20T13:11:20Z",
+    "generated_at":  "2025-11-02T17:43:09Z",
     "site_http":  "https://fractalnode.org",
     "site_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion",
     "license":  "CC0-1.0",
     "license_url":  "https://creativecommons.org/publicdomain/zero/1.0/",
     "artifacts":  [
-                      {
-                          "name":  "sovereign-stack-vs-synthetic-stack-2c241b/index.html",
-                          "size":  14214,
-                          "sha256":  "152e73735d940ceea26e0799b2c20ad3ff8f2d97654caaf0e0a9877aab27f542",
-                          "title":  "Sovereign stack vs synthetic stack",
-                          "slug":  "sovereign-stack-vs-synthetic-stack-2c241b",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/sovereign-stack-vs-synthetic-stack-2c241b/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-stack-vs-synthetic-stack-2c241b/index.html"
-                      },
-                      {
-                          "name":  "sovereign-stack-vs-synthetic-stack-2c241b/sovereign-stack-vs-synthetic-stack-2c241b.pdf",
-                          "size":  58886,
-                          "sha256":  "934046650f5fd84cd60f4cde9e6747accc3a73927c6d771fbe59adc405e45a33",
-                          "title":  "Sovereign stack vs synthetic stack",
-                          "slug":  "sovereign-stack-vs-synthetic-stack-2c241b",
-                          "ext":  "pdf",
-                          "url_http":  "https://fractalnode.org/sovereign-stack-vs-synthetic-stack-2c241b/sovereign-stack-vs-synthetic-stack-2c241b.pdf",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-stack-vs-synthetic-stack-2c241b/sovereign-stack-vs-synthetic-stack-2c241b.pdf"
-                      },
                       {
                           "name":  "sovereignty-and-its-discontents-1002e6/index.html",
                           "size":  50808,
@@ -55,6 +35,56 @@
                           "ext":  "epub",
                           "url_http":  "https://fractalnode.org/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.epub",
                           "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereignty-and-its-discontents-1002e6/sovereignty-and-its-discontents-1002e6.epub"
+                      },
+                      {
+                          "name":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/index.html",
+                          "size":  14176,
+                          "sha256":  "9338632fb40893e18a3ed893f8fdb6832b71f40ba6ffbdb510e41ce34411c784",
+                          "title":  "The carceral wyrm discipline simulation and the eternal hunt",
+                          "slug":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/index.html"
+                      },
+                      {
+                          "name":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558.pdf",
+                          "size":  55090,
+                          "sha256":  "7c3b1a48e251b2a4b27490d195b495f5ec5cebe30d649ded0cd351d0254b6354",
+                          "title":  "The carceral wyrm discipline simulation and the eternal hunt",
+                          "slug":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558.pdf"
+                      },
+                      {
+                          "name":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558.epub",
+                          "size":  3356838,
+                          "sha256":  "31678b39dc15c0e2f8ed42a6f18be1aab579d6ee7a290a048b11a0fe7a9de753",
+                          "title":  "The carceral wyrm discipline simulation and the eternal hunt",
+                          "slug":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558",
+                          "ext":  "epub",
+                          "url_http":  "https://fractalnode.org/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558.epub",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558.epub"
+                      },
+                      {
+                          "name":  "sovereign-stack-vs-synthetic-stack-2c241b/index.html",
+                          "size":  14214,
+                          "sha256":  "152e73735d940ceea26e0799b2c20ad3ff8f2d97654caaf0e0a9877aab27f542",
+                          "title":  "Sovereign stack vs synthetic stack",
+                          "slug":  "sovereign-stack-vs-synthetic-stack-2c241b",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/sovereign-stack-vs-synthetic-stack-2c241b/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-stack-vs-synthetic-stack-2c241b/index.html"
+                      },
+                      {
+                          "name":  "sovereign-stack-vs-synthetic-stack-2c241b/sovereign-stack-vs-synthetic-stack-2c241b.pdf",
+                          "size":  58886,
+                          "sha256":  "934046650f5fd84cd60f4cde9e6747accc3a73927c6d771fbe59adc405e45a33",
+                          "title":  "Sovereign stack vs synthetic stack",
+                          "slug":  "sovereign-stack-vs-synthetic-stack-2c241b",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/sovereign-stack-vs-synthetic-stack-2c241b/sovereign-stack-vs-synthetic-stack-2c241b.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-stack-vs-synthetic-stack-2c241b/sovereign-stack-vs-synthetic-stack-2c241b.pdf"
                       },
                       {
                           "name":  "school-is-fake-money-6bf236/index.html",
@@ -107,36 +137,6 @@
                           "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-law-made-from-physics-b0a9a5/sovereign-law-made-from-physics-b0a9a5.pdf"
                       },
                       {
-                          "name":  "the-devourer-of-time-8cc6bc/index.html",
-                          "size":  21450,
-                          "sha256":  "47b0b68595676b68b003e699b499a21b72720b8ea82850419260b94e49b3b138",
-                          "title":  "The devourer of time",
-                          "slug":  "the-devourer-of-time-8cc6bc",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/index.html"
-                      },
-                      {
-                          "name":  "the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.pdf",
-                          "size":  53422,
-                          "sha256":  "dab216163f754afd3013f958fcb31a7919ff3317a047bebb9492646d96d05191",
-                          "title":  "The devourer of time",
-                          "slug":  "the-devourer-of-time-8cc6bc",
-                          "ext":  "pdf",
-                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.pdf",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.pdf"
-                      },
-                      {
-                          "name":  "the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.epub",
-                          "size":  2018522,
-                          "sha256":  "90ca40529df3b40d03ab65a2609257646902c9368671a73368dd7b4ad8f857cf",
-                          "title":  "The devourer of time",
-                          "slug":  "the-devourer-of-time-8cc6bc",
-                          "ext":  "epub",
-                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.epub",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.epub"
-                      },
-                      {
                           "name":  "the-sovereign-wealth-codex-b75d27/index.html",
                           "size":  43340,
                           "sha256":  "860e974a4c70ba2acefc61e235858842a3059d7e4ffa57a14cf51ed7892950c0",
@@ -187,36 +187,6 @@
                           "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/universal-health-advice-eaf15e/universal-health-advice-eaf15e.pdf"
                       },
                       {
-                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/index.html",
-                          "size":  91859,
-                          "sha256":  "118edceac5efe911518034bc55d77e3eacebd5b612d1ce9a1248f7100bc3ffb0",
-                          "title":  "The phenomenon of sovereign man",
-                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/index.html"
-                      },
-                      {
-                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.pdf",
-                          "size":  203366,
-                          "sha256":  "7591c2bc2a54431a6789f6b51157ba650cb3a65e44888a15f2126dc76fbe0de5",
-                          "title":  "The phenomenon of sovereign man",
-                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
-                          "ext":  "pdf",
-                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.pdf",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.pdf"
-                      },
-                      {
-                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.epub",
-                          "size":  55926,
-                          "sha256":  "2caa039e8bc089325474678dcf176d8ce4a3f7a1ed051199b14f8e3395df72f4",
-                          "title":  "The phenomenon of sovereign man",
-                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
-                          "ext":  "epub",
-                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.epub",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.epub"
-                      },
-                      {
                           "name":  "the-sovereign-ledger-88c8ff/index.html",
                           "size":  91839,
                           "sha256":  "dd90997f2cc6238c288845015505c1bddd70a8adee549b4ed89c18bb79584cf3",
@@ -247,34 +217,64 @@
                           "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-sovereign-ledger-88c8ff/the-sovereign-ledger-88c8ff.epub"
                       },
                       {
-                          "name":  "codex-of-sovereign-transmission-242db1/index.html",
-                          "size":  32123,
-                          "sha256":  "5185e49ad2a88dec4644359c7d08d4acd1d27244ceea470f8425187439a031f9",
-                          "title":  "Codex of sovereign transmission",
-                          "slug":  "codex-of-sovereign-transmission-242db1",
+                          "name":  "the-devourer-of-time-8cc6bc/index.html",
+                          "size":  21450,
+                          "sha256":  "47b0b68595676b68b003e699b499a21b72720b8ea82850419260b94e49b3b138",
+                          "title":  "The devourer of time",
+                          "slug":  "the-devourer-of-time-8cc6bc",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/index.html"
+                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/index.html"
                       },
                       {
-                          "name":  "codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.pdf",
-                          "size":  82744,
-                          "sha256":  "747ddad1787506f9ef154e00928735d5f723536b5f4eac31113fc511c1ef2d0a",
-                          "title":  "Codex of sovereign transmission",
-                          "slug":  "codex-of-sovereign-transmission-242db1",
+                          "name":  "the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.pdf",
+                          "size":  53422,
+                          "sha256":  "dab216163f754afd3013f958fcb31a7919ff3317a047bebb9492646d96d05191",
+                          "title":  "The devourer of time",
+                          "slug":  "the-devourer-of-time-8cc6bc",
                           "ext":  "pdf",
-                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.pdf",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.pdf"
+                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.pdf"
                       },
                       {
-                          "name":  "codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.epub",
-                          "size":  24074,
-                          "sha256":  "b08688906e4526be23b7fa7b1a8ca55df67cf50ea2c2646054943ab53a071f40",
-                          "title":  "Codex of sovereign transmission",
-                          "slug":  "codex-of-sovereign-transmission-242db1",
+                          "name":  "the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.epub",
+                          "size":  2018522,
+                          "sha256":  "90ca40529df3b40d03ab65a2609257646902c9368671a73368dd7b4ad8f857cf",
+                          "title":  "The devourer of time",
+                          "slug":  "the-devourer-of-time-8cc6bc",
                           "ext":  "epub",
-                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.epub",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.epub"
+                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.epub",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/the-devourer-of-time-8cc6bc.epub"
+                      },
+                      {
+                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/index.html",
+                          "size":  91859,
+                          "sha256":  "118edceac5efe911518034bc55d77e3eacebd5b612d1ce9a1248f7100bc3ffb0",
+                          "title":  "The phenomenon of sovereign man",
+                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/index.html"
+                      },
+                      {
+                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.pdf",
+                          "size":  203366,
+                          "sha256":  "7591c2bc2a54431a6789f6b51157ba650cb3a65e44888a15f2126dc76fbe0de5",
+                          "title":  "The phenomenon of sovereign man",
+                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.pdf"
+                      },
+                      {
+                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.epub",
+                          "size":  55926,
+                          "sha256":  "2caa039e8bc089325474678dcf176d8ce4a3f7a1ed051199b14f8e3395df72f4",
+                          "title":  "The phenomenon of sovereign man",
+                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
+                          "ext":  "epub",
+                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.epub",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/the-phenomenon-of-sovereign-man-02f3ee.epub"
                       },
                       {
                           "name":  "grapheneos-oem-boundary-analysis-277fba/index.html",
@@ -305,6 +305,66 @@
                           "ext":  "epub",
                           "url_http":  "https://fractalnode.org/grapheneos-oem-boundary-analysis-277fba/grapheneos-oem-boundary-analysis-277fba.epub",
                           "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/grapheneos-oem-boundary-analysis-277fba/grapheneos-oem-boundary-analysis-277fba.epub"
+                      },
+                      {
+                          "name":  "hardlaw-89a956/index.html",
+                          "size":  29616,
+                          "sha256":  "258e9214acd42cffb366731cb0412474c8d5ffa77949133590f74c67bb2ce560",
+                          "title":  "Hardlaw",
+                          "slug":  "hardlaw-89a956",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/hardlaw-89a956/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/index.html"
+                      },
+                      {
+                          "name":  "hardlaw-89a956/hardlaw-89a956.pdf",
+                          "size":  87418,
+                          "sha256":  "36e0856d408ad833dae3fbe923773e3ed56e06975d4fec1641efbad34a966450",
+                          "title":  "Hardlaw",
+                          "slug":  "hardlaw-89a956",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/hardlaw-89a956/hardlaw-89a956.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/hardlaw-89a956.pdf"
+                      },
+                      {
+                          "name":  "hardlaw-89a956/hardlaw-89a956.epub",
+                          "size":  23856,
+                          "sha256":  "2e81bd1872b4f0c105c937235dffd3e84d5502b2603bb522a93f3d6fb3ff0266",
+                          "title":  "Hardlaw",
+                          "slug":  "hardlaw-89a956",
+                          "ext":  "epub",
+                          "url_http":  "https://fractalnode.org/hardlaw-89a956/hardlaw-89a956.epub",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/hardlaw-89a956.epub"
+                      },
+                      {
+                          "name":  "codex-of-sovereign-transmission-242db1/index.html",
+                          "size":  32123,
+                          "sha256":  "5185e49ad2a88dec4644359c7d08d4acd1d27244ceea470f8425187439a031f9",
+                          "title":  "Codex of sovereign transmission",
+                          "slug":  "codex-of-sovereign-transmission-242db1",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/index.html"
+                      },
+                      {
+                          "name":  "codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.pdf",
+                          "size":  82744,
+                          "sha256":  "747ddad1787506f9ef154e00928735d5f723536b5f4eac31113fc511c1ef2d0a",
+                          "title":  "Codex of sovereign transmission",
+                          "slug":  "codex-of-sovereign-transmission-242db1",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.pdf"
+                      },
+                      {
+                          "name":  "codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.epub",
+                          "size":  24074,
+                          "sha256":  "b08688906e4526be23b7fa7b1a8ca55df67cf50ea2c2646054943ab53a071f40",
+                          "title":  "Codex of sovereign transmission",
+                          "slug":  "codex-of-sovereign-transmission-242db1",
+                          "ext":  "epub",
+                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.epub",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/codex-of-sovereign-transmission-242db1.epub"
                       },
                       {
                           "name":  "a-declaration-of-independence-of-the-sovereign-stack-9c3d18/index.html",
@@ -357,36 +417,6 @@
                           "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/a-sovereign-stack-analysis-of-the-liquid-network-ec782e/a-sovereign-stack-analysis-of-the-liquid-network-ec782e.epub"
                       },
                       {
-                          "name":  "hardlaw-89a956/index.html",
-                          "size":  29616,
-                          "sha256":  "258e9214acd42cffb366731cb0412474c8d5ffa77949133590f74c67bb2ce560",
-                          "title":  "Hardlaw",
-                          "slug":  "hardlaw-89a956",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/hardlaw-89a956/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/index.html"
-                      },
-                      {
-                          "name":  "hardlaw-89a956/hardlaw-89a956.pdf",
-                          "size":  87418,
-                          "sha256":  "36e0856d408ad833dae3fbe923773e3ed56e06975d4fec1641efbad34a966450",
-                          "title":  "Hardlaw",
-                          "slug":  "hardlaw-89a956",
-                          "ext":  "pdf",
-                          "url_http":  "https://fractalnode.org/hardlaw-89a956/hardlaw-89a956.pdf",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/hardlaw-89a956.pdf"
-                      },
-                      {
-                          "name":  "hardlaw-89a956/hardlaw-89a956.epub",
-                          "size":  23856,
-                          "sha256":  "2e81bd1872b4f0c105c937235dffd3e84d5502b2603bb522a93f3d6fb3ff0266",
-                          "title":  "Hardlaw",
-                          "slug":  "hardlaw-89a956",
-                          "ext":  "epub",
-                          "url_http":  "https://fractalnode.org/hardlaw-89a956/hardlaw-89a956.epub",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/hardlaw-89a956.epub"
-                      },
-                      {
                           "name":  "on-convenience-and-frictionless-living-f220df/index.html",
                           "size":  25383,
                           "sha256":  "4fcc3baa761332d7e7647f3bbba7c27dd908ca77bad01d9f205e62f6842a291e",
@@ -435,6 +465,36 @@
                           "ext":  "pdf",
                           "url_http":  "https://fractalnode.org/proof-of-signal-b82913/proof-of-signal-b82913.pdf",
                           "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/proof-of-signal-b82913/proof-of-signal-b82913.pdf"
+                      },
+                      {
+                          "name":  "on-bitcoin-crime-and-freedom-09ff50/index.html",
+                          "size":  30317,
+                          "sha256":  "85e74fb0abd78437429291baf672dd537d7825f4c5c7fb3055de56280baff651",
+                          "title":  "On bitcoin crime and freedom",
+                          "slug":  "on-bitcoin-crime-and-freedom-09ff50",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/on-bitcoin-crime-and-freedom-09ff50/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/on-bitcoin-crime-and-freedom-09ff50/index.html"
+                      },
+                      {
+                          "name":  "on-bitcoin-crime-and-freedom-09ff50/on-bitcoin-crime-and-freedom-09ff50.pdf",
+                          "size":  74445,
+                          "sha256":  "69cd088c8724415657a469a7b021fe1317ca47b787bad0a850a6f014b63e7464",
+                          "title":  "On bitcoin crime and freedom",
+                          "slug":  "on-bitcoin-crime-and-freedom-09ff50",
+                          "ext":  "pdf",
+                          "url_http":  "https://fractalnode.org/on-bitcoin-crime-and-freedom-09ff50/on-bitcoin-crime-and-freedom-09ff50.pdf",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/on-bitcoin-crime-and-freedom-09ff50/on-bitcoin-crime-and-freedom-09ff50.pdf"
+                      },
+                      {
+                          "name":  "on-bitcoin-crime-and-freedom-09ff50/on-bitcoin-crime-and-freedom-09ff50.epub",
+                          "size":  23994,
+                          "sha256":  "72ce9b9ab58657aa61a73fcd21bd24419ee4a23b4eb1f64cf84a74817b8ba7b4",
+                          "title":  "On bitcoin crime and freedom",
+                          "slug":  "on-bitcoin-crime-and-freedom-09ff50",
+                          "ext":  "epub",
+                          "url_http":  "https://fractalnode.org/on-bitcoin-crime-and-freedom-09ff50/on-bitcoin-crime-and-freedom-09ff50.epub",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/on-bitcoin-crime-and-freedom-09ff50/on-bitcoin-crime-and-freedom-09ff50.epub"
                       },
                       {
                           "name":  "homemade-ice-cream-c13350/index.html",

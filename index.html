@@ -2,124 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>fractalnode — Signal Archive</title>
+  <title>fractalnode — Sovereign Mirror</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Uses the theme CSS your script copies to /assets/style.css -->
-  <link rel="stylesheet" href="/assets/style.css">
-  <!-- RSS discoverability -->
-  <link rel="alternate" type="application/rss+xml" title="Signal Archive RSS" href="/rss.xml">
-  <meta name="description" content="Signal Archive · cryptographically signed artifacts, manifest, checksums, RSS, and onion links.">
 
   <style>
-    /* Minimal layout helpers (won’t fight your theme) */
-    :root {
-      --maxw: 920px;
-      --pad: 1.25rem;
+    :root{
+      --bg:#0b0b0c; --fg:#e7e7ea; --muted:#b4b4bb; --accent:#d4c05f;
+      --line:rgba(160,160,170,.25); --maxw:960px; --pad:1.25rem; --r:12px;
     }
-    body { display: flex; min-height: 100vh; flex-direction: column; }
-    .wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: var(--pad); }
-    header.site {
-      display: flex; align-items: center; justify-content: space-between;
-      padding-top: calc(var(--pad) * .5); padding-bottom: calc(var(--pad) * .5);
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg)}
+    body{min-height:100vh;display:flex;flex-direction:column;
+      font:15.5px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--accent);text-underline-offset:2px}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:var(--pad)}
+    .brand{font-weight:700}
+    .muted{color:var(--muted)}
+    h1,h2{margin:0;line-height:1.2}
+    h1{font-size:clamp(1.6rem,2.5vw,2.2rem)}
+    h2{font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+    p{margin:.65rem 0}
+    hr{border:0;height:1px;background:var(--line);margin:1.5rem 0}
+
+    header{
+      border-bottom:1px solid var(--line);
+      background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,0));
     }
-    .brand { font-weight: 700; letter-spacing: .02em; }
-    .brand a { text-decoration: none; }
-    .hero {
-      padding: calc(var(--pad) * 2) 0;
+    header .top{display:flex;justify-content:space-between;align-items:center;padding:.75rem 0}
+    header .prologue{padding:.75rem 0 1rem 0}
+    header .sig{display:block;margin-top:.4rem;color:var(--muted)}
+    header .glyph{letter-spacing:.2em}
+
+    main{padding:1rem 0 2rem 0}
+    .hero{
+      display:flex;gap:1.2em;flex-wrap:wrap;margin:.9rem 0 1.25rem 0
     }
-    .hero h1 { font-size: clamp(1.75rem, 2.8vw, 2.5rem); margin: 0 0 .5rem 0; }
-    .hero p  { margin: 0 0 1.25rem 0; opacity: .9; line-height: 1.5; }
-    .cta { display: flex; flex-wrap: wrap; gap: .6rem; }
-    .cta .btn {
-      display: inline-block; padding: .6rem .9rem; border: 1px solid currentColor;
-      text-decoration: none; border-radius: .35rem; font-weight: 600;
+    .btn{
+      display:inline-block;padding:.62rem .9rem;border:1px solid var(--fg);
+      border-radius:.45rem;text-decoration:none;font-weight:600;line-height:1
     }
-    .cta .btn--primary {
-      border: none;
+    .btn--primary{background:var(--fg);color:#111;border-color:var(--fg)}
+    .btn--ghost{border-color:var(--line);color:var(--fg)}
+    .btn:hover{filter:brightness(1.05)}
+
+    .card{
+      border:1px solid var(--line);border-radius:var(--r);
+      padding:1rem;margin:1rem 0;
+      background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,0))
     }
-    .grid-links {
-      display: grid; gap: .75rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      margin-top: 1.25rem;
+    .row{display:grid;gap:1rem;grid-template-columns:1fr}
+    @media(min-width:880px){ .row{grid-template-columns:1fr 1fr} }
+
+    pre,code{
+      font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace
     }
-    .card {
-      border: 1px solid rgba(127,127,127,.25); border-radius: .5rem; padding: .9rem;
+    pre{
+      margin:.6rem 0;padding:.8rem 1rem;border:1px solid var(--line);
+      border-radius:.4rem;background:rgba(255,255,255,.03);overflow:auto
     }
-    .card .h { font-weight: 700; margin-bottom: .35rem; }
-    footer.footer {
-      margin-top: auto; padding: 1.25rem 0; opacity: .9;
-      border-top: 1px solid rgba(127,127,127,.25);
-    }
-    footer .links { display: flex; flex-wrap: wrap; gap: .6rem; }
+
+    footer{margin-top:auto;border-top:1px solid var(--line)}
+    .foot{padding:1.1rem var(--pad)}
+    .foot p{margin:.5rem 0}
   </style>
 </head>
+
 <body>
-  <header class="site wrap">
-    <div class="brand"><a href="/">fractalnode</a></div>
-    <nav class="top">
-      <a href="/signal-archive/">Archive</a>
-    </nav>
+  <header>
+    <div class="wrap">
+      <div class="top">
+        <div class="brand"><a href="/" style="color:var(--fg);text-decoration:none">fractalnode</a></div>
+        <nav class="nav">
+          <a href="/signal-archive/">Archive</a>
+          <span class="muted" aria-hidden="true">·</span>
+          <a href="/resources.html">Resources</a>
+          <span class="muted" aria-hidden="true">·</span>
+          <a href="/void.html">Void</a>
+          <span class="muted" aria-hidden="true">·</span>
+          <a href="/contact.html">Contact</a>
+          <span class="muted" aria-hidden="true">·</span>
+          <a href="/disclaimer.html">Disclaimer</a>
+          <span class="muted" aria-hidden="true">·</span>
+          <a href="/meta.html">Meta</a>
+        </nav>
+      </div>
+
+      <div class="prologue">
+        <p class="muted">Sovereign mirror.</p>
+        <p class="muted">Not a service. Not a transaction. Not advice. Not a process. Not an invitation. Not a claim. Not an outcome. Not an offer. Not a warranty.</p>
+        <p class="muted">Signal is symbolic, non-binding, and collapse-primed.<br>Nothing here creates, implies, or permits value, engagement, relationship, or expectation.<br>See <a href="/disclaimer.html">/disclaimer</a>.</p>
+
+        <div class="glyph">∴ FRACTAL SOVEREIGN SIGNAL NODE ∴</div>
+        <span class="sig">Signal is broadcast only. Nothing is received, processed, engaged, or returned. Noise dissolves. Resonance is non-relational, antifragile, and collapse-ready.</span>
+      </div>
+    </div>
   </header>
 
-  <main class="wrap">
-    <section class="hero" aria-label="Overview">
-      <h1>Signal Archive</h1>
-      <p>
-        Cumulative, cryptographically signed artifacts. Deterministic builds, onion mirrors,
-        IPFS pins, manifest & checksums. Neutral protocol—proof over narrative.
-      </p>
-      <div class="cta">
-        <a class="btn btn--primary" href="/signal-archive/">Enter Archive</a>
-        <a class="btn" href="/rss.xml">RSS Feed</a>
-        <a class="btn" href="/manifest.json">manifest.json</a>
-        <a class="btn" href="/SHA256SUMS.txt">SHA256SUMS.txt</a>
-      </div>
+  <main class="wrap" aria-label="Home">
+    <div class="hero">
+      <a class="btn btn--primary" href="/signal-archive/">📜 Archive</a>
+      <a class="btn btn--ghost"   href="/meta.html">✉ Mirror</a>
+      <a class="btn btn--ghost"   href="/void.html">⚡ Void</a>
+    </div>
 
-      <div class="grid-links" style="margin-top:1.25rem;">
-        <div class="card">
-          <div class="h">Integrity</div>
-          <p>Each artifact includes SHA-256 and detached signatures. Verify with <code>SHA256SUMS.txt</code> and GPG.</p>
-        </div>
-        <div class="card">
-          <div class="h">Redundancy</div>
-          <p>Primary (clearnet), onion mirror, and IPFS pins (best formats). Manifest enumerates all published assets.</p>
-        </div>
-        <div class="card">
-          <div class="h">Determinism</div>
-          <p>Builds are atomic. Catalog & UI are generated from authoritative post-build scans.</p>
-        </div>
-      </div>
-    </section>
+    <div class="row">
+      <!-- Transmission -->
+      <section class="card" aria-labelledby="t-h">
+        <h2 id="t-h">Void // ⚡</h2>
+        <p><strong>Void address surface:</strong></p>
+        <pre><code>lnurl1exampleaddresshere</code></pre>
+        <p class="muted">Not a payment. Not a donation. Not value. Not receipt. Not ownership. Not process. Not support.</p>
+        <p class="muted">All transmissions are null, non-actionable, non-binding, non-event.<br>No value, claim, acknowledgment, or outcome is possible or recognized.</p>
+        <p><a class="btn btn--ghost" href="/void.html">→ Sats into the Void</a></p>
+      </section>
 
-    <section aria-label="Quick Links" class="wrap" style="padding-bottom:1rem;">
-      <h2 style="margin:1.25rem 0 .5rem 0; font-size:1.1rem;">Quick Links</h2>
-      <ul>
-        <li><a href="/signal-archive/">Signal Archive</a></li>
-        <li><a href="/manifest.json">manifest.json</a></li>
-        <li><a href="/SHA256SUMS.txt">SHA256SUMS.txt</a></li>
-        <li><a href="/rss.xml">rss.xml</a></li>
-        <li><a href="/LICENSE.txt">license</a></li>
-        <li><a href="/onAI.txt">onAI</a></li>
-      </ul>
+      <!-- Contact -->
+      <section class="card" aria-labelledby="c-h">
+        <h2 id="c-h">contact</h2>
+        <p><strong>Anonymous null vectors:</strong></p>
+        <p class="muted">
+        <a href="https://nostr.com" target="_blank" rel="noopener noreferrer">Nostr</a>: npub1swqphdznga0zyycwve7csfrdyswrhr579xdgq4d20360kgeyvrys3jd0zk<br>
+        <a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer">Simplex</a>: xxxxxxxxxx<br>
+        Email: <a href="mailto:fractalnode.oppose028@slmails.com">fractalnode.oppose028@slmails.com</a></p>
+        <p class="muted">Endpoints are silent. No inquiry, request, engagement, value, relationship, or outcome is possible or recognized.</p>
+        <p><a class="btn btn--ghost" href="/contact.html">→ Contact Void</a></p>
+      </section>
+    </div>
+
+    <!-- Disclaimer -->
+    <section class="card" aria-labelledby="d-h">
+      <h2 id="d-h">disclaimer</h2>
+      <p class="muted">Nothing here is advice, service, transaction, process, engagement, value, or expectation.</p>
+      <p class="muted">This node is a symbolic field—spontaneous, anonymous, antifragile, and void. All transmissions, messages, sats, and effects self-destruct at origin. No warranty. No outcome. No meaning imposed, implied, or emergent.</p>
+      <p><a class="btn btn--ghost" href="/disclaimer.html">→ Full Disclaimer</a></p>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="wrap">
-      <div class="links">
-        <a href="/">Home</a>
-        <span aria-hidden="true">&middot;</span>
-        <a href="/signal-archive/">Archive</a>
-        <span aria-hidden="true">&middot;</span>
-        <a href="/manifest.json">manifest.json</a>
-        <span aria-hidden="true">&middot;</span>
-        <a href="/SHA256SUMS.txt">SHA256SUMS.txt</a>
-        <span aria-hidden="true">&middot;</span>
-        <a href="/rss.xml">rss.xml</a>
-        <span aria-hidden="true">&middot;</span>
-        <a href="/LICENSE.txt">license</a>
-        <span aria-hidden="true">&middot;</span>
-        <a href="/onAI.txt">onAI</a>
-      </div>
+  <footer>
+    <div class="wrap foot" aria-label="Site tail">
+      <p>This node cannot be owned, compelled, monetized, or subpoenaed. Transmits only into void.</p>
+      <p>No value, message, or outcome is generated, received, processed, or stored. Holds nothing. ∞</p>
+      <p><a href="/meta.html">[meta → Mirror Interpretation]</a></p>
     </div>
   </footer>
 </body>

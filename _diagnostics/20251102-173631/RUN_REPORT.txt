@@ -1,0 +1,7 @@
+=== SUMMARY ===
+Build FAILED: 2025-11-02 17:36:31
+Warnings: 0
+Errors:   1
+
+[ERROR]
+Preflight error: VeraCrypt V:\ not mounted (vault copy required)

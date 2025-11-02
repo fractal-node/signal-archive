@@ -1,78 +1,18 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-17T01:00:31Z",
+    "generated_at":  "2025-10-20T13:14:40Z",
     "site_http":  "https://fractalnode.org",
     "site_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion",
     "artifacts":  [
                       {
-                          "name":  "the-devourer-of-time-8cc6bc/index.html",
-                          "size":  21450,
-                          "sha256":  "47b0b68595676b68b003e699b499a21b72720b8ea82850419260b94e49b3b138",
-                          "title":  "The devourer of time",
-                          "slug":  "the-devourer-of-time-8cc6bc",
+                          "name":  "sovereign-stack-vs-synthetic-stack-2c241b/index.html",
+                          "size":  14214,
+                          "sha256":  "152e73735d940ceea26e0799b2c20ad3ff8f2d97654caaf0e0a9877aab27f542",
+                          "title":  "Sovereign stack vs synthetic stack",
+                          "slug":  "sovereign-stack-vs-synthetic-stack-2c241b",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/the-devourer-of-time-8cc6bc/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-devourer-of-time-8cc6bc/index.html"
-                      },
-                      {
-                          "name":  "the-sovereign-wealth-codex-b75d27/index.html",
-                          "size":  43340,
-                          "sha256":  "860e974a4c70ba2acefc61e235858842a3059d7e4ffa57a14cf51ed7892950c0",
-                          "title":  "The sovereign wealth codex",
-                          "slug":  "the-sovereign-wealth-codex-b75d27",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/the-sovereign-wealth-codex-b75d27/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-sovereign-wealth-codex-b75d27/index.html"
-                      },
-                      {
-                          "name":  "universal-health-advice-eaf15e/index.html",
-                          "size":  10398,
-                          "sha256":  "930c98763aeda81cc7e67a1dec90bc69c7a93a830b832e928e23d245cf20c6e1",
-                          "title":  "Universal health advice",
-                          "slug":  "universal-health-advice-eaf15e",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/universal-health-advice-eaf15e/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/universal-health-advice-eaf15e/index.html"
-                      },
-                      {
-                          "name":  "the-phenomenon-of-sovereign-man-02f3ee/index.html",
-                          "size":  91859,
-                          "sha256":  "118edceac5efe911518034bc55d77e3eacebd5b612d1ce9a1248f7100bc3ffb0",
-                          "title":  "The phenomenon of sovereign man",
-                          "slug":  "the-phenomenon-of-sovereign-man-02f3ee",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/the-phenomenon-of-sovereign-man-02f3ee/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-phenomenon-of-sovereign-man-02f3ee/index.html"
-                      },
-                      {
-                          "name":  "codex-of-sovereign-transmission-242db1/index.html",
-                          "size":  32123,
-                          "sha256":  "5185e49ad2a88dec4644359c7d08d4acd1d27244ceea470f8425187439a031f9",
-                          "title":  "Codex of sovereign transmission",
-                          "slug":  "codex-of-sovereign-transmission-242db1",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/codex-of-sovereign-transmission-242db1/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/codex-of-sovereign-transmission-242db1/index.html"
-                      },
-                      {
-                          "name":  "on-convenience-and-frictionless-living-f220df/index.html",
-                          "size":  25383,
-                          "sha256":  "4fcc3baa761332d7e7647f3bbba7c27dd908ca77bad01d9f205e62f6842a291e",
-                          "title":  "On convenience and frictionless living",
-                          "slug":  "on-convenience-and-frictionless-living-f220df",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/on-convenience-and-frictionless-living-f220df/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/on-convenience-and-frictionless-living-f220df/index.html"
-                      },
-                      {
-                          "name":  "hardlaw-89a956/index.html",
-                          "size":  29616,
-                          "sha256":  "258e9214acd42cffb366731cb0412474c8d5ffa77949133590f74c67bb2ce560",
-                          "title":  "Hardlaw",
-                          "slug":  "hardlaw-89a956",
-                          "ext":  "html",
-                          "url_http":  "https://fractalnode.org/hardlaw-89a956/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/hardlaw-89a956/index.html"
+                          "url_http":  "https://fractalnode.org/sovereign-stack-vs-synthetic-stack-2c241b/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-stack-vs-synthetic-stack-2c241b/index.html"
                       }
                   ]
 }

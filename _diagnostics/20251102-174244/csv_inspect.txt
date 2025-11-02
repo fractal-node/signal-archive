@@ -1,0 +1,54 @@
+CSV: C:\SignalArchiveWork\CONFIG\metadata.csv
+RowCount: 21
+Headers: visibility, slug_override, html_on, tags, pdf_on, source_path, title, epub_on
+Preview (first 5 rows as JSON):
+{
+    "visibility":  "signal",
+    "slug_override":  "",
+    "html_on":  "Y",
+    "tags":  "signal",
+    "pdf_on":  "Y",
+    "source_path":  "DROP_INBOX\\origin.gen.txt",
+    "title":  "PROOF-OF-SIGNAL",
+    "epub_on":  "Y"
+}
+{
+    "visibility":  "signal",
+    "slug_override":  "",
+    "html_on":  "Y",
+    "tags":  "keto, dessert, food, ice cream",
+    "pdf_on":  "Y",
+    "source_path":  "DROP_INBOX\\BEST ICE CREAM.txt",
+    "title":  "HOMEMADE ICE CREAM",
+    "epub_on":  "Y"
+}
+{
+    "visibility":  "signal",
+    "slug_override":  "",
+    "html_on":  "Y",
+    "tags":  "civilization,freud,stack,psychology,philosophy,sovereignty,collapse,myth,law",
+    "pdf_on":  "Y",
+    "source_path":  "DROP_INBOX\\SovereigntyAndItsDiscontents.docx",
+    "title":  "Sovereignty and Its Discontents",
+    "epub_on":  "Y"
+}
+{
+    "visibility":  "signal",
+    "slug_override":  "grapheneos-oem-boundary-analysis",
+    "html_on":  "Y",
+    "tags":  "grapheneos,privacy,hardware,qualcomm,sovereignty,analysis,security",
+    "pdf_on":  "Y",
+    "source_path":  "DROP_INBOX\\OnRecentGrapheneOSAnnouncements.docx",
+    "title":  "GrapheneOS OEM: Boundary Condition Analysis",
+    "epub_on":  "Y"
+}
+{
+    "visibility":  "signal",
+    "slug_override":  "",
+    "html_on":  "Y",
+    "tags":  "bitcoin,physics,sovereignty,law,markets,energy,proof-of-work",
+    "pdf_on":  "Y",
+    "source_path":  "DROP_INBOX\\Sovereign Law Made from Physics.txt",
+    "title":  "Sovereign Law Made from Physics",
+    "epub_on":  "Y"
+}
