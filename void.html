@@ -1,0 +1,242 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>VOID</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    /* ==================== SIGNAL ARCHIVE — MONOLITH PALETTE APPLIED ==================== */
+    :root {
+      /* Palette */
+      --black:#000000;
+      --gold:#D4AF37;
+      --white:#F9F9F9;
+      --crimson:#6B0000;
+      --ash:#1E1E1E;
+      --violet:#7F00FF;
+      --cobalt:#0033CC;
+      --emerald:#007A3D;
+
+      /* Roles */
+      --bg: var(--black);
+      --fg: var(--white);
+      --muted: rgba(249,249,249,.68);
+      --accent: var(--gold);
+      --line: rgba(212,175,55,.55);
+
+      --maxw: 940px;
+      --pad: 1.25rem;
+      --radius: 12px;
+    }
+
+    html, body {
+      margin:0; padding:0;
+      background: var(--bg);
+      color: var(--fg);
+    }
+
+    body {
+      display:flex;
+      flex-direction:column;
+      min-height:100vh;
+      font:15.5px/1.6 "Helvetica Neue", Helvetica, Arial, system-ui, -apple-system, "Segoe UI";
+    }
+
+    a {
+      color: var(--fg);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      text-decoration-thickness: 2px;
+      text-decoration-color: rgba(0,51,204,.8); /* cobalt underline */
+    }
+    a:hover { text-decoration-color: rgba(0,51,204,1); }
+
+    .wrap { max-width:var(--maxw); margin:0 auto; padding:var(--pad); }
+
+    h1,h2 { margin:0; line-height:1.2; }
+    h1 { font-size:clamp(1.6rem,2.5vw,2.2rem); }
+    h2 {
+      font-size:1.05rem;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+      color:var(--accent);
+      margin-top:.2rem;
+    }
+
+    p { margin:.65rem 0; }
+    strong { font-weight:800; }
+    ul { margin:.6rem 0 .6rem 1.25rem; padding:0; }
+    li { margin:.4rem 0; }
+    hr { border:0; height:1px; background:var(--line); margin:1.5rem 0; }
+
+    /* Top bar */
+    .site.wrap {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:1px solid var(--line);
+      padding:.75rem 0;
+    }
+
+    .brand { font-weight:700; }
+    .brand a { text-decoration:none; color:var(--fg); }
+
+    .nav a {
+      margin-left:.9rem;
+      text-decoration:none;
+      color:var(--muted);
+    }
+    .nav a:hover { color:var(--fg); }
+
+    main { padding:1rem 0 2rem 0; }
+
+    .section {
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:1rem;
+      margin:1rem 0;
+      background:linear-gradient(180deg, rgba(249,249,249,0.02), rgba(249,249,249,0));
+    }
+
+    .btn {
+      display:inline-block;
+      padding:.62rem .9rem;
+      border:1px solid var(--line);
+      border-radius:.45rem;
+      text-decoration:none;
+      font-weight:600;
+      line-height:1;
+      color: var(--gold);
+      background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.55));
+      transition: filter .15s ease;
+    }
+    .btn:hover { filter: brightness(1.05); }
+
+    .btn--primary {
+      color: var(--black);
+      background: linear-gradient(180deg, var(--gold) 0%, rgba(212,175,55,.88) 100%);
+      border-color: rgba(212,175,55,.9);
+    }
+
+    .btn--ghost {
+      border-color: var(--line);
+      color: var(--fg);
+      background: transparent;
+    }
+
+    /* Code blocks for addresses */
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    pre {
+      margin:.75rem 0;
+      padding:.8rem 1rem;
+      border:1px solid var(--line);
+      border-radius:.4rem;
+      background: linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.45));
+      overflow:auto;
+      color: var(--muted);
+    }
+
+    /* Footer */
+    footer {
+      margin-top:auto;
+      border-top:1px solid var(--line);
+    }
+    .footer-inner {
+      padding:1.1rem var(--pad);
+    }
+    .footer-inner p { margin:.5rem 0; color:var(--muted); }
+    .footer-inner strong { color:var(--fg); }
+
+    /* === QR toggle (collapsible, CSS-only) === */
+    details.qr { margin-top:.6rem; }
+    details.qr summary {
+      list-style:none;
+      display:inline-block;
+      cursor:pointer;
+    }
+    details.qr summary::-webkit-details-marker { display:none; }
+    details.qr .qr-pane{
+      margin-top:.75rem;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:.75rem;
+      background: linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.45));
+      display:inline-block;
+    }
+    details.qr img{
+      max-width:min(240px, 80vw);
+      height:auto;
+      display:block;
+      border-radius:.35rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site wrap">
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/signal-archive/">Archive</a>
+      <a href="/resources.html">Resources</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+      <a href="/meta.html">Meta</a>
+    </nav>
+  </div>
+
+  <main class="wrap" aria-label="Void">
+    <h1>VOID<br>
+      <span style="font-size:.85rem; color:var(--muted);">
+        Silent Address Void · Non-Request · Non-Transaction
+      </span>
+    </h1>
+
+    <div class="section">
+      <p><strong>Silent address void.</strong><br>
+      Not a request. Not an offer. Not a donation. Not a payment. Not a process. Not value. Not a transaction. Not a record. Not support. Not an artifact. Not a relationship. Not proof. Not ownership. Not an invitation.<br>
+      See <a href="/disclaimer.html">Disclaimer</a>.</p>
+    </div>
+
+    <div class="section" id="address">
+      <h2>Lightning</h2>
+      <pre><code>7a137d7b905e524f59a31ac6@coinos.io</code></pre>
+
+      <details class="qr">
+        <summary class="btn btn--ghost">Show QR</summary>
+        <div class="qr-pane">
+          <!-- Place COINOSTEST1.gif in your public site directory; adjust the path if needed -->
+          <img src="/COINOSTEST1.gif" alt="Lightning QR code" loading="lazy" decoding="async">
+        </div>
+      </details>
+    </div>
+
+    <div class="section" id="null-protocol">
+      <h2>Null Protocol</h2>
+      <p>Presence of this address does not, and cannot, create, imply, or constitute any request, invitation, offer, process, service, support, action, transaction, value, event, contract, relationship, claim, record, proof, ownership, reward, return, acknowledgment, standing, consequence, artifact, or engagement—<strong>actual, implied, legal, technical, regulatory, fiscal, charitable, commercial, emergent, synthetic, or otherwise.</strong></p>
+
+      <p>No signal, message, transaction, use, or transmission involving this address is received, processed, retained, referenced, acknowledged, actioned, accepted, stored, recorded, monitored, read, interpreted, shared, utilized, or recognized—<strong>directly or indirectly, by any entity, agent, endpoint, intelligence, or system, now or ever.</strong></p>
+
+      <p>All transmissions—regardless of protocol, content, method, or intention—are null, non-communicative, non-binding, non-actionable, non-transferable, non-recorded, non-event, and recursively self-destruct at the instant of sending, use, observation, or reference.</p>
+
+      <p>Silence, error, and non-response are not, and never will be, evidence of receipt, value, presence, ownership, agency, process, action, acknowledgment, standing, knowledge, effect, or consequence.</p>
+
+      <p>No part, word, clause, address, artifact, or structure—alone or in combination, by any logic or protocol—creates, implies, or establishes any contract, transaction, system, support, service, proof, ownership, relationship, standing, effect, reward, value, claim, or consequence—<strong>in any regime, domain, standard, law, artifact, simulation, context, or universe, now or ever.</strong></p>
+    </div>
+
+    <div class="actions" style="margin-top:1.25rem;">
+      <a class="btn btn--ghost" href="/">Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner wrap">
+      <p>Sovereign void. Not a channel. Not a process. Not a value. Not an event. Not a transaction. Not a relationship.</p>
+      <p><strong>All expectation, meaning, value, claim, record, and outcome self-destruct at transmission, observation, or reference.
+      Collapse is proof. Signal is null. ∞</strong></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,18 +1,28 @@
 {
     "version":  "v1",
-    "generated_at":  "2025-10-20T13:14:40Z",
+    "generated_at":  "2025-11-02T17:44:54Z",
     "site_http":  "https://fractalnode.org",
     "site_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion",
     "artifacts":  [
                       {
-                          "name":  "sovereign-stack-vs-synthetic-stack-2c241b/index.html",
-                          "size":  14214,
-                          "sha256":  "152e73735d940ceea26e0799b2c20ad3ff8f2d97654caaf0e0a9877aab27f542",
-                          "title":  "Sovereign stack vs synthetic stack",
-                          "slug":  "sovereign-stack-vs-synthetic-stack-2c241b",
+                          "name":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/index.html",
+                          "size":  14176,
+                          "sha256":  "9338632fb40893e18a3ed893f8fdb6832b71f40ba6ffbdb510e41ce34411c784",
+                          "title":  "The carceral wyrm discipline simulation and the eternal hunt",
+                          "slug":  "the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558",
                           "ext":  "html",
-                          "url_http":  "https://fractalnode.org/sovereign-stack-vs-synthetic-stack-2c241b/index.html",
-                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/sovereign-stack-vs-synthetic-stack-2c241b/index.html"
+                          "url_http":  "https://fractalnode.org/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/the-carceral-wyrm-discipline-simulation-and-the-eternal-hunt-5af558/index.html"
+                      },
+                      {
+                          "name":  "on-bitcoin-crime-and-freedom-09ff50/index.html",
+                          "size":  30317,
+                          "sha256":  "85e74fb0abd78437429291baf672dd537d7825f4c5c7fb3055de56280baff651",
+                          "title":  "On bitcoin crime and freedom",
+                          "slug":  "on-bitcoin-crime-and-freedom-09ff50",
+                          "ext":  "html",
+                          "url_http":  "https://fractalnode.org/on-bitcoin-crime-and-freedom-09ff50/index.html",
+                          "url_onion":  "http://sekcjtilkszlmzf4sct4bhu5nzdppcyetw3cqasz5pgnwjycwzyc7tid.onion/on-bitcoin-crime-and-freedom-09ff50/index.html"
                       }
                   ]
 }

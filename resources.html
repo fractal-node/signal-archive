@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RESOURCES — fractalnode</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root{
+      /* ==================== SIGNAL ARCHIVE — MONOLITH v3.1 (palette-aligned) ==================== */
+      /* exact palette (fixed hues) */
+      --black:#000000; --gold:#D4AF37; --white:#F9F9F9; --crimson:#6B0000;
+      --ash:#1E1E1E;  --violet:#7F00FF; --cobalt:#0033CC; --emerald:#007A3D;
+
+      /* roles for this page (colors only changed; structure untouched) */
+      --bg: var(--black);
+      --fg: var(--white);
+      --muted: rgba(249,249,249,.68);   /* AAA on black/ash per audit */
+      --line: rgba(212,175,55,.55);     /* functional border (gold @ .55) */
+
+      /* layout */
+      --maxw: 940px;
+      --pad: 1.25rem;
+      --radius: 12px;
+    }
+
+    html, body {margin:0; padding:0; background:var(--bg); color:var(--fg);}
+    body {
+      display:flex; min-height:100vh; flex-direction:column;
+      font:15.5px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    /* Links — white text (AAA) with cobalt underline to match scheme */
+    a {
+      color: var(--fg);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      text-decoration-thickness: 2px;
+      text-decoration-color: rgba(0,51,204,.80); /* cobalt */
+    }
+    a:hover { text-decoration-color: rgba(0,51,204,1); }
+
+    .wrap {max-width:var(--maxw); margin:0 auto; padding:var(--pad);}
+    h1,h2 {margin:0; line-height:1.2;}
+    h1 {font-size:clamp(1.6rem,2.5vw,2.2rem);}
+    h2 {
+      font-size:1.05rem; text-transform:uppercase;
+      letter-spacing:.06em; color:var(--gold); margin-top:.2rem;
+    }
+    p {margin:.65rem 0;}
+    strong {font-weight:800;}
+    ul {margin:.6rem 0 .6rem 1.25rem; padding:0;}
+    li {margin:.4rem 0;}
+    hr {border:0; height:1px; background:var(--line); margin:1.5rem 0;}
+
+    header.site {
+      display:flex; justify-content:space-between; align-items:center;
+      padding:.75rem var(--pad); border-bottom:1px solid var(--line);
+    }
+    .brand {font-weight:700;}
+    .brand a {text-decoration:none; color:var(--fg);}
+    .nav a {margin-left:.9rem; text-decoration:none; color:var(--muted);}
+    .nav a:hover {color:var(--fg);}
+
+    main {padding:1rem 0 2rem 0;}
+    .section {
+      border:1px solid var(--line); border-radius:var(--radius);
+      padding:1rem; margin:1rem 0;
+      /* swapped to dark alpha gradient to stay within palette */
+      background:linear-gradient(180deg, rgba(0,0,0,.18), rgba(0,0,0,0));
+    }
+
+    .btn {
+      display:inline-block; padding:.62rem .9rem;
+      border:1px solid var(--line); border-radius:.45rem;
+      text-decoration:none; font-weight:600; line-height:1;
+      color: var(--gold); /* gold text on dark = AAA */
+      background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.55));
+      transition: filter .15s ease;
+    }
+    .btn--primary {
+      color:#000000; /* black on gold for AAA */
+      background: linear-gradient(180deg, var(--gold) 0%, rgba(212,175,55,.88) 100%);
+      border-color: rgba(212,175,55,.90);
+    }
+    .btn--ghost {border-color:var(--line); color:var(--fg);}
+    .btn:hover {filter:brightness(1.05);}
+
+    footer {margin-top:auto; border-top:1px solid var(--line);}
+    .footer-inner {padding:1.1rem var(--pad);}
+    .footer-inner p {margin:.5rem 0; color:var(--muted);}
+    .footer-inner strong {color:var(--fg);}
+  </style>
+</head>
+
+<body>
+  <div class="site wrap">
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/signal-archive/">Archive</a>
+      <a href="/void.html">Void</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+      <a href="/meta.html">Meta</a>
+    </nav>
+  </div>
+
+  <main class="wrap" aria-label="Resources">
+    <h1>RESOURCES<br><span style="font-size:.85rem; color:var(--muted);">Collection of Documents, Spreadsheets, and Links</span></h1>
+
+    <div class="section">
+      <h2>Documents</h2>
+      <ul>
+        <li><a href="https://example.com/some-pdf.pdf" target="_blank" class="btn btn--ghost">Sample PDF Document</a></li>
+        <li><a href="https://example.com/some-spreadsheet.xlsx" target="_blank" class="btn btn--ghost">Sample Spreadsheet (XLSX)</a></li>
+        <li><a href="https://example.com/some-textfile.txt" target="_blank" class="btn btn--ghost">Sample Text File</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>External Links</h2>
+      <ul>
+        <li><a href="https://www.examplelink1.com" target="_blank" class="btn btn--ghost">Example Link 1</a></li>
+        <li><a href="https://www.examplelink2.com" target="_blank" class="btn btn--ghost">Example Link 2</a></li>
+        <li><a href="https://www.examplelink3.com" target="_blank" class="btn btn--ghost">Example Link 3</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>More Resources Coming Soon</h2>
+      <p>Stay tuned for more resources, links, and documents to be added here in the near future. For now, feel free to explore the resources listed above!</p>
+    </div>
+
+    <div class="actions" style="margin-top:1.25rem;">
+      <a class="btn btn--ghost" href="/">Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner wrap">
+      <p>All resources are shared for educational and informational purposes only. No data is tracked, and no expectations are created upon access.</p>
+    </div>
+  </footer>
+</body>
+</html>

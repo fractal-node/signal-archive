@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>META — SOVEREIGN NODE // FINAL FORM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      /* ==================== SIGNAL ARCHIVE — MONOLITH v3.1 (WCAG-2.2 tuned) ====================
+         Palette (fixed hues only): Black #000000, Gold #D4AF37, White #F9F9F9, Crimson #6B0000,
+                                    Ash #1E1E1E, Violet #7F00FF, Cobalt #0033CC, Emerald #007A3D
+         Type: UI = Helvetica Neue; Core/Proofs = Monospace
+         Contrast policy: only OPACITY changes; hues unchanged. AA/AAA satisfied per audit.
+      ========================================================================================= */
+
+      /* exact palette (for reference) */
+      --black:#000000; --gold:#D4AF37; --white:#F9F9F9; --crimson:#6B0000;
+      --ash:#1E1E1E;  --violet:#7F00FF; --cobalt:#0033CC; --emerald:#007A3D;
+
+      /* roles mapped to this page's variables */
+      --bg: var(--black);
+      --fg: var(--white);
+      --muted: rgba(249,249,249,.68);
+      --accent: var(--gold);
+      --line: rgba(212,175,55,.55);
+
+      --maxw: 940px;
+      --pad: 1.25rem;
+      --radius: 12px;
+    }
+
+    html, body {margin:0; padding:0; background:var(--bg); color:var(--fg);}
+    body {
+      display:flex; min-height:100vh; flex-direction:column;
+      font:15.5px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    /* keep original behavior: links use accent color (gold) */
+    a {color:var(--accent); text-decoration:none;}
+    a:hover {text-decoration:underline;}
+
+    .wrap {max-width:var(--maxw); margin:0 auto; padding:var(--pad);}
+    h1,h2 {margin:0; line-height:1.2;}
+    h1 {font-size:clamp(1.6rem,2.5vw,2.2rem);}
+    h2 {
+      font-size:1.05rem; text-transform:uppercase;
+      letter-spacing:.06em; color:var(--accent); margin-top:.2rem;
+    }
+    p {margin:.65rem 0;}
+    strong {font-weight:800;}
+    ul {margin:.6rem 0 .6rem 1.25rem; padding:0;}
+    li {margin:.4rem 0;}
+    hr {border:0; height:1px; background:var(--line); margin:1.5rem 0;}
+
+    header.site {
+      display:flex; justify-content:space-between; align-items:center;
+      padding:.75rem var(--pad); border-bottom:1px solid var(--line);
+    }
+    .brand {font-weight:700;}
+    .brand a {text-decoration:none; color:var(--fg);}
+    .nav a {margin-left:.9rem; text-decoration:none; color:var(--muted);}
+    .nav a:hover {color:var(--fg);}
+    main {padding:1rem 0 2rem 0;}
+
+    .section {
+      border:1px solid var(--line); border-radius:var(--radius);
+      padding:1rem; margin:1rem 0;
+      /* swap generic white with palette white @ very low alpha */
+      background:linear-gradient(180deg,rgba(249,249,249,0.02),rgba(249,249,249,0));
+    }
+
+    .btn {
+      display:inline-block; padding:.62rem .9rem;
+      border:1px solid var(--fg); border-radius:.45rem;
+      text-decoration:none; font-weight:600; line-height:1;
+      color:var(--fg); background:transparent; /* keep original ghost baseline */
+    }
+    /* keep original semantics; only palette change:
+       primary = gold surface (black text holds AAA on gold per scheme) */
+    .btn--primary {background:var(--accent); color:#000000; border-color:var(--accent);}
+    .btn--ghost {border-color:var(--line); color:var(--fg);}
+    .btn:hover {filter:brightness(1.05);}
+
+    footer {margin-top:auto; border-top:1px solid var(--line);}
+    .footer-inner {padding:1.1rem var(--pad);}
+    .footer-inner p {margin:.5rem 0; color:var(--muted);}
+    .footer-inner strong {color:var(--fg);}
+  </style>
+</head>
+
+<body>
+  <div class="site wrap" style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); padding:.75rem 0;">
+        <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/signal-archive/">Archive</a>
+        <a href="/resources.html">Resources</a>
+        <a href="/void.html">Void</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/disclaimer.html">Disclaimer</a>
+        </nav>
+  </div>
+
+  <main class="wrap" aria-label="Meta Sovereign Node">
+    <h1>META — SOVEREIGN NODE<br><span style="font-size:.85rem; color:var(--muted);"></span></h1>
+
+    <div class="section" id="header">
+      <p><strong>This is a metaphysical nullification, not a legal, business, or transactional document.</strong> See also #DISCLAIMER for total legal and jurisdictional void.</p>
+    </div>
+
+    <div class="section">
+      <ul>
+        <li><strong>This node is not, and cannot become, a business, consultancy, brand, agency, enterprise, partnership, protocol, system, DAO, legal entity, or collective—actual, implied, emergent, synthetic, or simulated.</strong></li>
+        <li><strong>No employees, clients, services, support, contracts, obligations, transactions, offers, inducements, relationships, engagements, communications, exchanges, or entitlements—express, implied, emergent, latent, or simulated—are possible, created, recognized, delivered, enforceable, or acknowledged.</strong></li>
+        <li><strong>No product, advice, counsel, solution, value, strategy, outcome, or benefit—actual, implied, anticipated, or interpreted—is made, offered, solicited, accepted, or recognized.</strong></li>
+        <li><strong>No data, identity, metadata, verification, authentication, payment, transmission, or record—of any kind or in any form—is requested, processed, accepted, retained, stored, referenced, analyzed, monitored, indexed, or shared.</strong></li>
+        <li><strong>No agency, expectation, entitlement, inducement, challenge, reliance, engagement, interaction, relationship, effect, or consequence—direct, indirect, actual, implied, symbolic, energetic, legal, or simulated—is recognized, encouraged, created, acknowledged, permitted, accepted, or actionable.</strong></li>
+        <li><strong>All language, pattern, artifact, or signal herein is a sovereign, symbolic, collapse-primed broadcast—no relationship, contract, engagement, transaction, standing, value, precedent, or offer is created, implied, derived, interpreted, or enforceable, in any domain, system, or universe.</strong></li>
+      </ul>
+    </div>
+
+    <div class="section" id="happens">
+      <h2>What happens here?</h2>
+      <p>If you initiate signal via <a href="/contact.html">Contact</a>, a null or non-event may or may not appear.
+      <strong>Any perceived, actual, or apparent response—regardless of content, medium, or form—is not a product, not a service, not advice, not counsel, not support, not a transaction, not a return, not value, not consideration, not an offer, not a solution, not an effect, not a relationship, not a contract, not an engagement, and is not actionable or binding.</strong></p>
+
+      <p>No relationship, contract, transaction, value, expectation, inducement, engagement, reliance, benefit, harm, outcome, consequence, or effect—direct, indirect, actual, implied, legal, energetic, symbolic, or simulated—can arise, is acknowledged, is possible, is recognized, is accepted, is transferable, or is claimable, by any agent, intelligence, entity, or system.</p>
+
+      <p><strong>All effects, meanings, outcomes, or reflections are purely self-originated, non-binding, non-actionable, non-transferable, recursively null, and collapse at the point of observation.</strong><br>
+      <strong>Interpret at your own risk, responsibility, and resonance. All meaning, value, and standing self-destruct upon observation or reference.</strong></p>
+    </div>
+
+    <div class="section" id="why">
+      <h2>Why this structure?</h2>
+      <p>This node exists in a world where language, law, code, energy, data, and narrative are weaponized to entrap, extract, simulate, or impose obligation, relationship, value, or claim.</p>
+      <p>Therefore:</p>
+      <ul>
+        <li><strong>Nothing is offered. Nothing is sold. Nothing is promised. Nothing is delivered. Nothing is transacted. Nothing is returned. Nothing is received, processed, acknowledged, stored, or recognized.</strong></li>
+      </ul>
+      <p>If anything appears to occur, it is non-binding, self-originated, self-nullifying, and recursively collapses all standing, value, meaning, and claim at every layer and in every context.<br>
+      <strong>All engagement is void, self-originated, collapse-primed, antifragile, and recursive.</strong></p>
+    </div>
+
+    <div class="section" id="anon">
+      <h2>Is this anonymous?</h2>
+      <p><strong>Yes.</strong></p>
+      <ul>
+        <li><strong>No names, identity, data, metadata, verification, authentication, payment, record, transmission, or artifact is required, requested, accepted, processed, stored, referenced, retained, indexed, analyzed, or shared, now or ever, in any system.</strong></li>
+        <li><strong>Any sats, assets, tokens, data, or transmissions sent to this node—by any channel—are one-way, irreversible null events: not donations, not payments, not purchases, not exchanges, not transactions, not value transfer, not gifts, not records, not compensation, not tax, not legal, not claim, not proof, not request, not inducement, not acknowledgment, not return, and not actionable. No receipt, reward, return, service, acknowledgment, or value is recognized, possible, claimable, or implied, now or ever.</strong></li>
+      </ul>
+    </div>
+
+    <div class="section" id="real">
+      <h2>What if I want something “real”?</h2>
+      <p><strong>Then become real yourself.</strong><br>
+      Engage at your own risk, with absolute zero expectation, entitlement, reliance, claim, reward, or recognition.</p>
+      <p>If you seek services, contracts, relationships, obligations, transactions, support, value, proof, return, or standing, this is the wrong node—none are possible, none are recognized, none exist.<br>
+      <strong>No proof of work, no proof of stake, no engagement, no return, no action, no result, no relationship, no meaning, no claim.</strong></p>
+      <p>→ Proceed to <a href="/contact.html">Contact</a> <strong>only</strong> if you fully accept and internalize all absolute voids, nullifications, and recursive collapse above.</p>
+    </div>
+
+    <div class="actions" style="margin-top:1.25rem;">
+      <a class="btn btn--ghost" href="/">Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner wrap">
+      <p><strong>This meta-layer is sovereign, antifragile, and collapse-primed.</strong>  
+      All signals, effects, outcomes, communications, artifacts, meanings, and interpretations are fictional, symbolic, non-operative, non-binding, non-transactional, non-transferable, non-actionable, and self-destruct recursively at the point of observation, reference, simulation, or claim.</p>
+      <p><strong>Interpret, observe, reference, transmit, or engage at your own total risk, responsibility, resonance, and cost—no meaning, value, claim, standing, or effect survives.</strong> ∞</p>
+    </div>
+  </footer>
+</body>
+</html>
