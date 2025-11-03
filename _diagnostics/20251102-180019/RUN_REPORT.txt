@@ -1,0 +1,7 @@
+=== SUMMARY ===
+Build completed: 2025-11-02 18:02:35
+Warnings: 1
+Errors:   0
+
+[WARN]
+Catalog yielded 0 renderable items. Falling back to filesystem discovery.
